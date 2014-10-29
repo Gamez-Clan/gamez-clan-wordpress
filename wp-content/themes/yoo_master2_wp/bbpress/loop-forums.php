@@ -1,3 +1,5 @@
+
+
 <?php
 
 /**
@@ -9,15 +11,12 @@
 
 ?>
 
+
 <?php do_action( 'bbp_template_before_forums_loop' ); ?>
 
 
-<div class="bbp-breadcrumb"><?php bbp_breadcrumb(); ?></div>
 
 <ul id="forums-list-<?php bbp_forum_id(); ?>" class="bbp-forums">
-	<li class="forum-title-item">
-		<div class="bbp-forum-title"><?php the_title(); ?></div>
-	</li>
 
 	<li class="bbp-header">
 

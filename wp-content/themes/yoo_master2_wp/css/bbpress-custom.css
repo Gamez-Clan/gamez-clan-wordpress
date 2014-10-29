@@ -297,19 +297,21 @@ padding-bottom: 0px;
 
 
 .bbp-forum-title-container {
-background-color: #fff;
+background-color: #333;
 width: 50%;
+padding: 0px;
 float: left;
+height: 40px;
 }
-.topic-reply-counts{
+.topic-reply-counts {
 width: 25%;
 float: left;
+background: #333;
 }
 .freshness-forum-link{
 width: 25%;
 float: left;	
 }
-
 
 
 

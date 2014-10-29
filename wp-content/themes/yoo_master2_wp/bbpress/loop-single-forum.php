@@ -8,7 +8,12 @@
  */
 
 ?>
+
+
+
 <div class="foren-block" id="">
+
+
 <ul id="bbp-forum-<?php bbp_forum_id(); ?>" <?php bbp_forum_class(); ?>>
 
 	<li class="bbp-forum-info">
@@ -29,20 +34,22 @@
 
 		<?php do_action( 'bbp_theme_before_forum_title' ); ?>
 
-		<a class="bbp-forum-title" href="<?php bbp_forum_permalink(); ?>" title="<?php bbp_forum_title(); ?>"><?php bbp_forum_title(); ?></a>
+		<h3 class="uk-panel-title"><a class="bbp-forum-title uk-panel-title" href="<?php bbp_forum_permalink(); ?>"><?php bbp_forum_title(); ?></a></h3>
 
 		<?php do_action( 'bbp_theme_after_forum_title' ); ?>
+		
+		
+		
+		
 
-				<?php bbp_forum_row_actions(); ?>
+		<?php do_action( 'bbp_theme_before_forum_description' ); ?>
+
 
 	</li>
 
-<!--
-	<li class="bbp-forum-topic-count">
-		<div class="topic-reply-counts">Topics: <?php bbp_forum_topic_count(); ?></div>
-		<div class="topic-reply-counts">Posts: <?php bbp_show_lead_topic() ? bbp_forum_reply_count() : bbp_forum_post_count(); ?></div>
-	</li>
--->
+	<li class="bbp-forum-topic-count"><?php bbp_forum_topic_count(); ?></li>
+
+	<li class="bbp-forum-reply-count"><?php bbp_show_lead_topic() ? bbp_forum_reply_count() : bbp_forum_post_count(); ?></li>
 
 	<li class="bbp-forum-freshness">
 
@@ -62,31 +69,24 @@
 
 		</p>
 	</li>
+	
 
-</ul><!-- #bbp-forum-<?php bbp_forum_id(); ?> -->
+	
+
+</ul><!-- #bbp-forum-<?php bbp_forum_id(); ?> -->		
+
+<!--<div class="bbp-forum-content"><?php bbp_forum_content(); ?></div>-->
+		
 
 
+		<?php do_action( 'bbp_theme_after_forum_description' ); ?>
 
-<?php do_action( 'bbp_theme_before_forum_sub_forums' ); ?>
+		<?php do_action( 'bbp_theme_before_forum_sub_forums' ); ?>
 
-		<?php BBP_Default::epicwebs_bbp_list_forums( array (
-		'before'            => '<ul class="bbp-forums-list">',
-		'after'             => '</ul>',
-		'link_before'       => '<li class="bbp-forum">',
-		'link_after'        => '</li>',
-		'count_before'      => '<div class="topic-reply-counts">Topics: ',
-		'count_after'       => '</div>',
-		'count_sep'         => '<br />Posts: ',
-		'separator'         => '<div style="clear:both;"></div>',
-		'forum_id'          => '',
-		'show_topic_count'  => true,
-		'show_reply_count'  => true,
-		'show_freshness_link' => true,
-		)); ?>
+		<?php bbp_list_forums(); ?>
 
 		<?php do_action( 'bbp_theme_after_forum_sub_forums' ); ?>
 
-</div>
-
-
-
+		<?php bbp_forum_row_actions(); ?>
+		
+		</div>

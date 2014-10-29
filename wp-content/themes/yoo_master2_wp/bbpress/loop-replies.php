@@ -11,21 +11,23 @@
 
 <?php do_action( 'bbp_template_before_replies_loop' ); ?>
 
-<div class="bbp-breadcrumb"><?php bbp_breadcrumb(); ?></div>
-
 <ul id="topic-<?php bbp_topic_id(); ?>-replies" class="forums bbp-replies">
 
 	<li class="bbp-header">
+	
+
+	
+	
 
 		<div class="bbp-reply-author"><?php  _e( 'Author',  'bbpress' ); ?></div><!-- .bbp-reply-author -->
 
-		<div class="bbp-reply-content">
+		<div class="">
 
 			<?php if ( !bbp_show_lead_topic() ) : ?>
 
 				<?php _e( 'Posts', 'bbpress' ); ?>
 
-				<?php bbp_user_subscribe_link(); ?>
+				<?php bbp_topic_subscription_link(); ?>
 
 				<?php bbp_user_favorites_link(); ?>
 
@@ -41,19 +43,29 @@
 
 	<li class="bbp-body">
 
-		<?php while ( bbp_replies() ) : bbp_the_reply(); ?>
+		<?php if ( bbp_thread_replies() ) : ?>
 
-			<?php bbp_get_template_part( 'loop', 'single-reply' ); ?>
+			<?php bbp_list_replies(); ?>
 
-		<?php endwhile; ?>
+		<?php else : ?>
+
+			<?php while ( bbp_replies() ) : bbp_the_reply(); ?>
+
+				<?php bbp_get_template_part( 'loop', 'single-reply' ); ?>
+
+			<?php endwhile; ?>
+
+		<?php endif; ?>
 
 	</li><!-- .bbp-body -->
 
 	<li class="bbp-footer">
+	
+	
 
 		<div class="bbp-reply-author"><?php  _e( 'Author',  'bbpress' ); ?></div>
 
-		<div class="bbp-reply-content">
+		<div class="">
 
 			<?php if ( !bbp_show_lead_topic() ) : ?>
 
