@@ -1,6 +1,3 @@
-
-
-
 <?php
 /**
 * @package   yoo_master2
