@@ -1,0 +1,9 @@
+Simple:Press Theme Title: Default
+Version: 1.2.9
+Theme URI: http://simple-press.com
+Description: The Simple:Press default theme featuring traditional forum layout with numerous color layout options
+Author: Andy Staines, Steve Klasen and Brandon C
+Author URI: http://simple-press.com/custom-simplepress-themes-for-every-need/
+Stylesheet: default.php
+Screenshot: spTheme.jpg
+Simple:Press Versions: 5.5.1 and above

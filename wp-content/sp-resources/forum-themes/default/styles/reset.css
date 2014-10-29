@@ -1,0 +1,98 @@
+/*
+# --------------------------------------------------------------------------------------
+#
+#	Simple:Press Template Reset CSS
+#	Theme		:	Default
+#	Author		:	Simple:Press
+#
+#	This is the reset CSS file for the SP Default theme.
+#
+# --------------------------------------------------------------------------------------
+*/
+
+#spMainContainer div,
+#spMainContainer span,
+#spMainContainer h1,
+#spMainContainer h2,
+#spMainContainer h3,
+#spMainContainer h4,
+#spMainContainer h5,
+#spMainContainer h6,
+#spMainContainer p,
+#spMainContainer blockquote,
+#spMainContainer pre,
+#spMainContainer code,
+#spMainContainer em,
+#spMainContainer img,
+#spMainContainer big,
+#spMainContainer small,
+#spMainContainer strong,
+#spMainContainer b,
+#spMainContainer i,
+#spMainContainer ol,
+#spMainContainer ul,
+#spMainContainer li,
+#spMainContainer fieldset,
+#spMainContainer form,
+#spMainContainer label,
+#spMainContainer input,
+#spMainContainer select,
+#spMainContainer legend {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background-color: transparent;
+	font-family: <?php echo($mainFontFamily); ?>;
+	font-size: 1em;
+	line-height: <?php echo($mainLineHeight); ?>;
+	min-height: 0;
+	min-width: 0;
+    float: none;
+}
+
+#spMainContainer a,
+#spMainContainer a:link,
+#spMainContainer a:active,
+#spMainContainer a:visited {
+    color: <?php echo($linkColor); ?>;
+    text-decoration: <?php echo($linkDecoration); ?>;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	font-size: 1em;
+	line-height: <?php echo($mainLineHeight); ?>;
+}
+
+#spMainContainer a:hover {
+    color: <?php echo($linkHover); ?>;
+}
+
+#spMainContainer ol,
+#spMainContainer ul {
+	list-style-position: inside;
+}
+
+#spMainContainer img,
+#spMainContainer a img {
+	display: inline;
+	border: none;
+	vertical-align: middle;
+    box-shadow: none;
+}
+
+#spMainContainer table,
+#spMainContainer tr td,
+#spMainContainer tr,
+#spMainContainer td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	vertical-align: middle;
+	width: auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+}

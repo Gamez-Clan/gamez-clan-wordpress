@@ -1,0 +1,1358 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RokSprocket v2.1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-06-26 15:28-0600\n"
+"Last-Translator: RocketTheme <support@rockettheme.com>\n"
+"Language-Team: RocketTheme LLC <support@rockettheme.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ wp_roksprocket
+msgid "COM_MODULES"
+msgstr "Modules Manager"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_ADVANCED_FIELDSET_LABEL"
+msgstr "Advanced Options"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_ASSIGNED_VARIES_EXCEPT"
+msgstr "All except selected"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_ASSIGNED_VARIES_ONLY"
+msgstr "Selected only"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_BASIC_FIELDSET_LABEL"
+msgstr "Basic Options"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_BATCH_POSITION_LABEL"
+msgstr "Set Position"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_BATCH_POSITION_NOCHANGE"
+msgstr "Keep original Position"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_BATCH_POSITION_NOPOSITION"
+msgstr "No Module Position"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_BATCH_OPTIONS"
+msgstr "Batch process the selected modules"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_BATCH_TIP"
+msgstr ""
+"If choosing to copy a module, any other actions selected will be applied to "
+"the copied module. Otherwise, all actions are applied to the selected "
+"module. When copying and not changing position, it is nevertheless necessary "
+"to select 'Keep Original Position' in the dropdown"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_CHANGE_POSITION_BUTTON"
+msgstr "Select position"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_CHANGE_POSITION_TITLE"
+msgstr "Change position"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_CONFIGURATION"
+msgstr "Module Manager Options"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_CUSTOM_OUTPUT"
+msgstr "Custom output"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_ERR_XML"
+msgstr "Module XML data not available"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_ERROR_CANNOT_FIND_MODULE"
+msgstr "Cannot find module"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_ERROR_CANNOT_GET_MODULE"
+msgstr "Cannot get module"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_ERROR_INVALID_EXTENSION"
+msgstr "Invalid module"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_ERROR_NO_MODULES_SELECTED"
+msgstr "No module selected"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_EXTENSION_PUBLISHED_DISABLED"
+msgstr "Module disabled and published"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_EXTENSION_PUBLISHED_ENABLED"
+msgstr "Module enabled and published"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_EXTENSION_UNPUBLISHED_DISABLED"
+msgstr "Module disabled and unpublished"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_EXTENSION_UNPUBLISHED_ENABLED"
+msgstr "Module enabled and unpublished"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_AUTOMATIC_TITLE_LABEL"
+msgstr "Automatic title"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_AUTOMATIC_TITLE_DESC"
+msgstr ""
+"Set yes if you want an automatic translated title. Its use depends on the "
+"administrator template."
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_CACHE_TIME_DESC"
+msgstr "The time before the module is recached"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_CACHE_TIME_LABEL"
+msgstr "Cache Time"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_CACHING_DESC"
+msgstr "Select whether to cache the content of this module"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_CACHING_LABEL"
+msgstr "Caching"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_CLIENT_ID_DESC"
+msgstr ""
+"The location of the module, frontend or backend. You cannot change this "
+"value."
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_CLIENT_ID_LABEL"
+msgstr "Module Location"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_CONTENT_DESC"
+msgstr "Text"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_CONTENT_LABEL"
+msgstr "Text"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_MODULE_DESC"
+msgstr "Module type"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_MODULE_LABEL"
+msgstr "Module Type"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_MODULECLASS_SFX_DESC"
+msgstr ""
+"A suffix to be applied to the CSS class of the module. This allows for "
+"individual module styling."
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+msgstr "Module Class Suffix"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_NOTE_DESC"
+msgstr "An optional note to display in module list."
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_NOTE_LABEL"
+msgstr "Note"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_POSITION_DESC"
+msgstr ""
+"You may select a module position from the modal display of pre-defined "
+"positions where you can filter by type and template, or enter your own "
+"module position by typing the name in the field and Save."
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_POSITION_LABEL"
+msgstr "Position"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_PUBLISH_DOWN_DESC"
+msgstr "An optional date to Finish Publishing the module."
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_PUBLISH_DOWN_LABEL"
+msgstr "Finish Publishing"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_PUBLISH_UP_DESC"
+msgstr "An optional date to Start Publishing the module."
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_PUBLISH_UP_LABEL"
+msgstr "Start Publishing"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_PUBLISHED_DESC"
+msgstr ""
+"If published, this module will display on your site frontend or backend "
+"depending on the module."
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_SHOWTITLE_DESC"
+msgstr ""
+"Show/Hide module title on display. Effect will depend on the chrome style in "
+"the template."
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_SHOWTITLE_LABEL"
+msgstr "Show Title"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_TITLE_DESC"
+msgstr "Module must have a title"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FIELD_VALUE_NOCACHING"
+msgstr "No caching"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_FILTER_SEARCH_DESC"
+msgstr "Filter by position name."
+
+# @ wp_roksprocket
+msgid "COM_MODULES_HEADING_MODULE"
+msgstr "Type"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_HEADING_PAGES"
+msgstr "Pages"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_HEADING_POSITION"
+msgstr "Position"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_HEADING_TEMPLATES"
+msgstr "Templates"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_HTML_PUBLISH_DISABLED"
+msgstr "Publish module::Extension disabled"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_HTML_PUBLISH_ENABLED"
+msgstr "Publish module::Extension enabled"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_HTML_UNPUBLISH_DISABLED"
+msgstr "Unpublish module::Extension disabled"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_HTML_UNPUBLISH_ENABLED"
+msgstr "Unpublish module::Extension enabled"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_MANAGER_MODULE"
+msgstr "Module Manager: Module %s"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_MANAGER_MODULES"
+msgstr "Module Manager: Modules"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_MENU_ASSIGNMENT"
+msgstr "Menu Assignment"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_MODULE_ASSIGN"
+msgstr "Module Assignment"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_MODULE_DESCRIPTION"
+msgstr "Module Description"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_MODULE_TEMPLATE_POSITION"
+msgstr "%1$s (%2$s)"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_MODULES_FILTER_SEARCH_DESC"
+msgstr "Search in module title."
+
+# @ wp_roksprocket
+msgid "COM_MODULES_MSG_MANAGE_NO_MODULES"
+msgstr "There are no modules installed matching your query"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_N_ITEMS_ARCHIVED"
+msgstr "%d modules successfully archived"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_N_ITEMS_ARCHIVED_1"
+msgstr "%d module successfully archived"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_N_ITEMS_CHECKED_IN_0"
+msgstr "No module successfully checked in"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_N_ITEMS_CHECKED_IN_1"
+msgstr "%d module successfully checked in"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_N_ITEMS_CHECKED_IN_MORE"
+msgstr "%d modules successfully checked in"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_N_ITEMS_DELETED"
+msgstr "%d modules successfully deleted"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_N_ITEMS_DELETED_1"
+msgstr "%d module successfully deleted"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_N_ITEMS_PUBLISHED"
+msgstr "%d modules successfully published"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_N_ITEMS_PUBLISHED_1"
+msgstr "%d module successfully published"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_N_ITEMS_TRASHED"
+msgstr "%d modules successfully trashed"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_N_ITEMS_TRASHED_1"
+msgstr "%d module successfully trashed"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_N_ITEMS_UNPUBLISHED"
+msgstr "%d modules successfully unpublished"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_N_ITEMS_UNPUBLISHED_1"
+msgstr "%d module successfully unpublished"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_N_MODULES_DUPLICATED"
+msgstr "%d modules successfully duplicated"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_N_MODULES_DUPLICATED_1"
+msgstr "%d module successfully duplicated"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_NO_ITEM_SELECTED"
+msgstr "No modules selected"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_NODESCRIPTION"
+msgstr "No description available"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_OPTION_MENU_ALL"
+msgstr "On all pages"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_OPTION_MENU_EXCLUDE"
+msgstr "On all pages except those selected"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_OPTION_MENU_INCLUDE"
+msgstr "Only on the pages selected"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_OPTION_MENU_NONE"
+msgstr "No pages"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_OPTION_ORDER_POSITION"
+msgstr "%d. %s"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_OPTION_POSITION_TEMPLATE_DEFINED"
+msgstr "Template"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_OPTION_POSITION_USER_DEFINED"
+msgstr "User"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_OPTION_SELECT_CLIENT"
+msgstr "- Select Type -"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_OPTION_SELECT_MODULE"
+msgstr "- Select Type -"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_OPTION_SELECT_POSITION"
+msgstr "- Select Position -"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_OPTION_SELECT_TYPE"
+msgstr "- Select type -"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_ANALYTICS"
+msgstr "Analytics"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_BANNER"
+msgstr "Banner"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_BOTTOM"
+msgstr "Bottom"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_BREADCRUMB"
+msgstr "Breadcrumb"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_BREADCRUMBS"
+msgstr "Breadcrumbs"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_DEBUG"
+msgstr "Debug"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_FOOTER"
+msgstr "Footer"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_HEADER"
+msgstr "Header"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_LEFT2"
+msgstr "Left 2"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_LEFT"
+msgstr "Left"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_MAINNAV"
+msgstr "Main Navigation"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_NAV"
+msgstr "Navigation"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_OFFLINE"
+msgstr "Offline"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_POSITION-0"
+msgstr "Position 0"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_POSITION-10"
+msgstr "Position 10"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_POSITION-11"
+msgstr "Position 11"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_POSITION-12"
+msgstr "Position 12"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_POSITION-13"
+msgstr "Position 13"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_POSITION-14"
+msgstr "Position 14"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_POSITION-15"
+msgstr "Position 15"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_POSITION-1"
+msgstr "Position 1"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_POSITION-2"
+msgstr "Position 2"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_POSITION-3"
+msgstr "Position 3"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_POSITION-4"
+msgstr "Position 4"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_POSITION-5"
+msgstr "Position 5"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_POSITION-6"
+msgstr "Position 6"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_POSITION-7"
+msgstr "Position 7"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_POSITION-8"
+msgstr "Position 8"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_POSITION-9"
+msgstr "Position 9"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_RIGHT2"
+msgstr "Right 2"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_RIGHT"
+msgstr "Right"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_SUB1"
+msgstr "Sub 1"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_SUB2"
+msgstr "Sub 2"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_SUB3"
+msgstr "Sub 3"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_SUB4"
+msgstr "Sub 4"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_SUB5"
+msgstr "Sub 5"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_SUB6"
+msgstr "Sub 6"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_SUB"
+msgstr "Sub"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_SUBNAV"
+msgstr "Sub Navigation"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_SYNDICATE"
+msgstr "Syndicate"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_TOP2"
+msgstr "Top 2"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_TOP3"
+msgstr "Top 3"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_TOP4"
+msgstr "Top 4"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_TOP"
+msgstr "Top"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_USER1"
+msgstr "User 1"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_USER2"
+msgstr "User 2"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_USER3"
+msgstr "User 3"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_USER4"
+msgstr "User 4"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_USER5"
+msgstr "User 5"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_USER6"
+msgstr "User 6"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_USER7"
+msgstr "User 7"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_POSITION_USER8"
+msgstr "User 8"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_SAVE_SUCCESS"
+msgstr "Module successfully saved"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_TYPE_CHOOSE"
+msgstr "Select a Module Type:"
+
+# @ wp_roksprocket
+msgid "COM_MODULES_XML_DESCRIPTION"
+msgstr "Component for module management in backend"
+
+# @ wp_roksprocket
+msgid "JLIB_RULES_SETTING_NOTES"
+msgstr ""
+"1. If you change the setting, it will apply to this component. Note that:"
+"<br /><em>Inherited</em> means that the permissions from global "
+"configuration and parent group will be used.<br /><em>Denied</em> means that "
+"no matter what the global configuration or parent group settings are, the "
+"group being edited cannot take this action on this component.<br /"
+"><em>Allowed</em> means that the group being edited will be able to take "
+"this action for this component (but if this is in conflict with the global "
+"configuration or parent group it will have no impact; a conflict will be "
+"indicated by <em>Not Allowed (Locked)</em> under Calculated Settings).<br /"
+">2. If you select a new setting, click <em>Save</em> to refresh the "
+"calculated settings."
+
+# @ wp_roksprocket
+msgid "COM_CONTENT_CHANGE_ARTICLE"
+msgstr "Select an Article"
+
+# @ wp_roksprocket
+msgid "COM_K2_CHANGE_ITEM"
+msgstr "Select an Article"
+
+# @ wp_roksprocket
+msgid "COM_CONTENTBUILDER_CHANGE_ITEM"
+msgstr "Select an Article"
+
+# @ wp_roksprocket
+msgid "ROKCOMMON_FILTER_BOOLEAN_RENDER"
+msgstr "is %1s"
+
+# @ wp_roksprocket
+msgid "ROKCOMMON_FILTER_DATE_RENDER"
+msgstr "is %1s"
+
+# @ wp_roksprocket
+msgid "ROKCOMMON_FILTER_DATEENTRY_RENDER"
+msgstr "%1s"
+
+# @ wp_roksprocket
+msgid "ROKCOMMON_FILTER_DATEHIDDENENABLED_RENDER"
+msgstr "%1s"
+
+# @ wp_roksprocket
+msgid "ROKCOMMON_FILTER_DATERANGE_RENDER"
+msgstr "%1s"
+
+# @ wp_roksprocket
+msgid "ROKCOMMON_FILTER_DATESELECTION_RENDER"
+msgstr "%1s"
+
+# @ wp_roksprocket
+msgid "ROKCOMMON_FILTER_DATEWITHINLAST_RENDER"
+msgstr "%1s %2s"
+
+# @ wp_roksprocket
+msgid "ROKCOMMON_FILTER_NUMBER_RENDER"
+msgstr "%1s"
+
+# @ wp_roksprocket
+msgid "ROKCOMMON_FILTER_NUMBERENTRY_RENDER"
+msgstr "%1s"
+
+# @ wp_roksprocket
+msgid "ROKCOMMON_FILTER_PICKLIST_RENDER"
+msgstr "is %1s"
+
+# @ wp_roksprocket
+msgid "ROKCOMMON_FILTER_TEXT_RENDER"
+msgstr "%1s"
+
+# @ wp_roksprocket
+msgid "ROKCOMMON_FILTER_TEXTENTRY_RENDER"
+msgstr "%1s"
+
+# @ wp_roksprocket
+msgid "ROKCOMMON_FILTER_ROOT_RENDER"
+msgstr "%1s"
+
+# @ wp_roksprocket
+msgid "ROKCOMMON_FILTER_LARGETEXT_RENDER"
+msgstr "contains %1s"
+
+# @ wp_roksprocket
+msgid "ROKCOMMON_FILTER_SORT_RENDER"
+msgstr "%1s"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_FILTER_JOOMLA_ARTICLE_RENDER"
+msgstr "%1s"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_FILTER_USER_RENDER"
+msgstr "is %1s"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_FILTER_CATEGORY_RENDER"
+msgstr "is %1s"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_FILTER_DESC"
+msgstr ""
+"The filters are rules that control which articles are displayed. Every "
+"different filter is combined with <code>AND</code>, but multiple instances "
+"of the same filter type will be combined by <code>OR</code>."
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_FILTER_K2_ARTICLE_RENDER"
+msgstr "%1s"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_FILTER_ZOO_ARTICLE_RENDER"
+msgstr "%1s"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_FILTER_FIELDSATTACH_ARTICLE_RENDER"
+msgstr "%1s"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_FILTER_EASYBLOG_ARTICLE_RENDER"
+msgstr "%1s"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_FILTER_CONTENTBUILDER_ARTICLE_RENDER"
+msgstr "%1s"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_FILTER_SEBLOD_ARTICLE_RENDER"
+msgstr "%1s"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_FILTER_TYPE_SEBLOD_CUSTOMFIELD_RENDER"
+msgstr "is %1s"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_FILTER_SEBLOD_SELECTFIELD_RENDER"
+msgstr "%1s"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_FILTER_SEBLOD_DYNAMICFIELD_RENDER"
+msgstr "%1s"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_ADD_FILTERS"
+msgstr "Add Filters"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_ADD_SPECIFIC_ARTICLES"
+msgstr "Add Specific Articles"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_JOOMLA_CONTENT_FILTER_RULES"
+msgstr "Joomla Content Filter Rules"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_ZOO_CONTENT_FILTER_RULES"
+msgstr "ZOO Content Filter Rules"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_USE_AS_ARTICLE_TEXT"
+msgstr "Use as Article Text"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_ZOO_APPLICATION_TYPE"
+msgstr "ZOO Application Type"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_K2_CONTENT_FILTER_RULES"
+msgstr "K2 Content Filter Rules"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_SEBLOD_CONTENT_FILTER_RULES"
+msgstr "Seblod Content Filter Rules"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_FIELDSATTACH_CONTENT_FILTER_RULES"
+msgstr "Fields Attach Content Filter Rules"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_EASYBLOG_CONTENT_FILTER_RULES"
+msgstr "EasyBlog Content Filter Rules"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_CONTENTBUILDER_CONTENT_FILTER_RULES"
+msgstr "Content Builder Content Filter Rules"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_ARTICLE_INTRO_TEXT"
+msgstr "Article Introtext"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_ITEM_CONTENT"
+msgstr "Item Content"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_ADD_FALLBACK_MANUAL_SORT_RULES"
+msgstr "Add Fallback Manual Sort Rules"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_ADD_SORT_RULES"
+msgstr "Add Sort Rules"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_SORT_MANUAL"
+msgstr "Manual sort"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_SORT_AUTOMATIC"
+msgstr "Automatic sort"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_SORT_RANDOM"
+msgstr "Random sort"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_SORT_BEFORE"
+msgstr "before"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_SORT_AFTER"
+msgstr "after"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_WITH_NEW_ARTICLES_ADDED"
+msgstr "with new articles added"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_SELECT_APP"
+msgstr "Select Application"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_SELECT_TYPE"
+msgstr "Select Type"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_SELECT_STORAGE"
+msgstr "Select Storage"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_APP"
+msgstr "Application"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_TYPE"
+msgstr "Type"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_STORAGE"
+msgstr "Storage"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_TITLE"
+msgstr "Title"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_ALIAS"
+msgstr "Alias"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_CATEGORY"
+msgstr "Category"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_FEATURED"
+msgstr "Featured"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_LANGUAGE"
+msgstr "Language"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_CREATED_BY"
+msgstr "Created By"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_CREATED_DATE"
+msgstr "Created Date"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_MODIFIED_DATE"
+msgstr "Last Modified Date"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_PUBLISHUP_DATE"
+msgstr "Publish Up Date"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_PUBLISHDOWN_DATE"
+msgstr "Publish Down Date"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_MODIFIED_BY"
+msgstr "Last Modified By"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_AUTHOR"
+msgstr "Author"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_RATING"
+msgstr "Rating"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_HITS"
+msgstr "Hits"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_YES"
+msgstr "Yes"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_NO"
+msgstr "No"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_ACCESS"
+msgstr "Access"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_STATUS"
+msgstr "Status"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_ID"
+msgstr "ID"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_THEMES_LABEL"
+msgstr "Theme"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_THEMES_DESC"
+msgstr "Select a Theme from the available options"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_ARROW_LABEL"
+msgstr "Arrow Navigation"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_ARROW_DESC"
+msgstr "Configure the Arrow Navigation Behavior"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_PAGINATION_LABEL"
+msgstr "Pagination"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_PAGINATION_DESC"
+msgstr "Show or Hide the Pagination"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_ANIMATION_LABEL"
+msgstr "Animation"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_ANIMATION_DESC"
+msgstr "Select the type of animation for the transitions"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_AUTOPLAY_LABEL"
+msgstr "Autoplay"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_AUTOPLAY_DESC"
+msgstr "Enable or Disable Autoplay"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_AUTOPLAY_DELAY_LABEL"
+msgstr "Autoplay Delay"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_AUTOPLAY_DELAY_DESC"
+msgstr "Configure the delay between Autoplay changes (in seconds)"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_RESIZE_ENABLE_LABEL"
+msgstr "Image Resize"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_RESIZE_ENABLE_DESC"
+msgstr ""
+"Enable or Disable the image auto-resizing functionality. Setting a dimension "
+"to 0 will cause that dimentions to not be considered during calculations."
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_RESIZE_WIDTH_LABEL"
+msgstr "Max Width"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_RESIZE_WIDTH_DESC"
+msgstr ""
+"The maximum width to keep when resizing. Set to '0' to depend on the Height "
+"dimension."
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_RESIZE_HEIGHT_LABEL"
+msgstr "Max Height"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_RESIZE_HEIGHT_DESC"
+msgstr ""
+"The maximum height to keep when resizing. Set to '0' to depend on the Width "
+"dimension."
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_SHORTCODE_LABEL"
+msgstr "Shortcode"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_SHORTCODE_DESC"
+msgstr ""
+"Copy-and-Paste this shortcode into your article to inject this module "
+"instance in your articles"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_INSTRUCTIONS_TITLE"
+msgstr "No Articles to Display"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_INSTRUCTIONS_TEXT"
+msgstr ""
+"Articles will automatically popuplate in this area when you have selected "
+"the required fields on the right.  Please follow these 3 simple steps:"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_PREVIEWSLENGTH_LABEL"
+msgstr "Preview Length"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_PREVIEWSLENGTH_DESC"
+msgstr "Amount of words to limit the display of each article preview"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_DEFAULT_TITLE"
+msgstr "Default Title"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_DEFAULT_TITLE_DESC"
+msgstr "You can select a default title for all articles based on this field."
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_DEFAULT_ICON"
+msgstr "Default Icon"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_DEFAULT_IMAGE"
+msgstr "Default Image"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_DEFAULT_IMAGE_DESC"
+msgstr "You can select a default image for all articles based on this field."
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_DEFAULT_LINK"
+msgstr "Default Link"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_DEFAULT_LINK_DESC"
+msgstr "You can select a default link for all articles based on this field."
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_DEFAULT_ARTICLE_IMAGE"
+msgstr "Default Article Image"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_DEFAULT_ARTICLE_LINK"
+msgstr "Default Article Link"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_DEFAULT_ARTICLE_TITLE"
+msgstr "Default Article Title"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_DEFAULT_DESCRIPTION"
+msgstr "Default Article Text"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_DEFAULT_DESCRIPTION_DESC"
+msgstr ""
+"You can select the default article text for all articles based on this field."
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_DEFAULT_ARTICLE_TEXT"
+msgstr "Default Article Text"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_DEFAULT_CUSTOM_IMAGE"
+msgstr "Default Custom Image"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_CUSTOM"
+msgstr "Custom"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_ARTICLE_IMAGE"
+msgstr "Article Image"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_ARTICLE_LINK"
+msgstr "Article Link"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_ARTICLE_TITLE"
+msgstr "Article Title"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_ARTICLE_DESCRIPTION"
+msgstr "Article Description"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_CUSTOM_ARTICLE_LINK"
+msgstr "Custom Article Link"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_SHOW_ALL"
+msgstr "Show author and date"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_SHOW_AUTHOR"
+msgstr "Show only author"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_SHOW_DATE"
+msgstr "Show only date"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_HIDE_ALL"
+msgstr "Hide author and date"
+
+# @ wp_roksprocket
+msgid "PUBLISHED"
+msgstr "Published"
+
+# @ wp_roksprocket
+msgid "UNPUBLISHED"
+msgstr "Unpublished"
+
+# @ wp_roksprocket
+msgid "TRASHED"
+msgstr "Trashed"
+
+# @ wp_roksprocket
+msgid "ARCHIVED"
+msgstr "Archived"
+
+# @ wp_roksprocket
+msgid "SLIDE_AND_FADE"
+msgstr "Slide and Fade"
+
+# @ wp_roksprocket
+msgid "FADE"
+msgstr "Fade"
+
+# @ wp_roksprocket
+msgid "CROSSFADE"
+msgstr "Crossfade"
+
+# @ wp_roksprocket
+msgid "RANDOM"
+msgstr "Randomize"
+
+# @ wp_roksprocket
+msgid "FROMTOP"
+msgstr "Top to Bottom"
+
+# @ wp_roksprocket
+msgid "FROMTOPRIGHT"
+msgstr "Top-Right to Bottom-Left"
+
+# @ wp_roksprocket
+msgid "FROMRIGHT"
+msgstr "Right to Left"
+
+# @ wp_roksprocket
+msgid "FROMRIGHTBOTTOM"
+msgstr "Bottom-Right to Top-Left"
+
+# @ wp_roksprocket
+msgid "FROMBOTTOM"
+msgstr "Bottom to Top"
+
+# @ wp_roksprocket
+msgid "FROMBOTTOMLEFT"
+msgstr "Bottom-Left to Top-Right"
+
+# @ wp_roksprocket
+msgid "FROMLEFT"
+msgstr "Left to Right"
+
+# @ wp_roksprocket
+msgid "FROMLEFTTOP"
+msgstr "Top-Left to Bottom-Right"
+
+# @ wp_roksprocket
+msgid "SHOW_ON_HOVER"
+msgstr "Show on Hover"
+
+# @ wp_roksprocket
+msgid "TOP"
+msgstr "Top"
+
+# @ wp_roksprocket
+msgid "BOTTOM"
+msgstr "Bottom"
+
+# @ wp_roksprocket
+msgid "RIGHT"
+msgstr "Right"
+
+# @ wp_roksprocket
+msgid "LEFT"
+msgstr "Left"
+
+# @ wp_roksprocket
+msgid "ENABLE"
+msgstr "Enable"
+
+# @ wp_roksprocket
+msgid "DISABLE"
+msgstr "Disable"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_UNABLE_TO_FIND_LAYOUT_ERROR"
+msgstr ""
+"Unable to find the RokSprocket layout %1$s.  It may be a template specific "
+"layout that is not available in the current default template."
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_STRIP_HTML_TAGS_LABEL"
+msgstr "Strip HTML Tags"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_STRIP_HTML_TAGS_DESC"
+msgstr "Remove the HTML Tags from the Description of the Article"
+
+# @ wp_roksprocket
+msgid "JYES"
+msgstr "Yes"
+
+# @ wp_roksprocket
+msgid "JNO"
+msgstr "No"
+
+# @ wp_roksprocket
+msgid "JHIDE"
+msgstr "Hide"
+
+# @ wp_roksprocket
+msgid "JSHOW"
+msgstr "Show"
+
+# @ wp_roksprocket
+msgid "JNONE"
+msgstr "None"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_DESC_TITLE"
+msgstr "The title of the RokSprocket Widget"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_WIDGET_COPY"
+msgstr "Copy of %1s"
+
+# @ wp_roksprocket
+msgid "JDEFAULT"
+msgstr "Default"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_SLUG"
+msgstr "Slug"
+
+# @ wp_roksprocket
+msgid "JLIB_FORM_SELECT_USER"
+msgstr "Select User"
+
+# @ wp_roksprocket
+msgid "JLIB_FORM_CHANGE_USER"
+msgstr "Change User"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_LABEL_TITLE"
+msgstr "Title:"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_LABEL_CHOOSE_WIDGET"
+msgstr "Choose Widget"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_DESC_CHOOSE_WIDGET"
+msgstr "Choose a Widget by title"
+
+# @ wp_roksprocket
+msgid "READ_MORE"
+msgstr "Read More"
+
+# @ wp_roksprocket
+msgid "ALL"
+msgstr "All"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_ERROR_REMOVING_ITEM"
+msgstr "Error removing item : %1s"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_ERROR_UNABLE_TO_FIND_ITEM_TO_REMOVE"
+msgstr "Unable to find item to remove.  It may have already been deleted."
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_NEW_SIMPLE_ITEM_TITLE"
+msgstr "Simple Item %s"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_SIMPLE_CONTENT_FILTER_RULES"
+msgstr "Simple Content"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_ADD_SPECIFIC_ITEM"
+msgstr "Add New Item"
+
+# @ wp_roksprocket
+msgid "ROKSPROCKET_ARTICLE_TAGS"
+msgstr "Article Tags"

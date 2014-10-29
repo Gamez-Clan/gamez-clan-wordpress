@@ -1,0 +1,360 @@
+i,
+.summary span.deleting {
+	background-image: url(../images/icons-sprite.png);
+	background-repeat: no-repeat;
+	background-position: 1000px 1000px;
+	.square(16px);
+	display: block;
+
+	/* Spinner */
+	&.spinner {
+		.opacity(0);
+		background-position: 0 0;
+
+		&.spinner-16 {
+			background-image: url(../images/loader-16.gif);
+		}
+		&.spinner-16-transparent {
+			background-image: url(../images/loader-16-transparent.gif);
+		}
+		&.spinner-32 {
+			background-image: url(../images/loader-32.gif);
+			.square(32px);
+		}
+		&.spinner-64 {
+			background-image: url(../images/loader-64.gif);
+			.square(64px);
+		}
+		&.spinner-128 {
+			background-image: url(../images/loader-128.gif);
+			.square(128px);
+		}
+	}
+
+	/* Tabs */
+	&.options {
+		background-position: 0 0;
+	}
+
+	&.menu-assignment {
+		background-position: -16px 0;
+	}
+
+	&.advanced {
+		background-position: -32px 0;
+	}
+
+	&.other {
+		background-position: -48px 0;
+	}
+
+	&.article-without-items {
+		background-position: -64px 0;
+	}
+
+	&.article-with-items {
+		background-position: -80px 0;
+	}
+
+	/* Tools */
+	&.tool {
+		.opacity(50);
+		.transition(opacity 0.2s linear);
+
+		&:hover {
+			.opacity(100);
+		}
+
+		&.info {
+			background-position: 0 -48px;
+		}
+
+		&.plus {
+			background-position: -16px -48px;
+		}
+
+		&.minus {
+			background-position: -32px -48px;
+		}
+
+		&.text {
+			background-position: -48px -48px;
+		}
+
+		&.image, &.icon-image {
+			background-position: -64px -48px;
+		}
+
+		&.link {
+			background-position: -80px -48px;
+		}
+
+		&.tab {
+			background-position: -96px -48px;
+		}
+
+		&.color {
+			background-position: -112px -48px;
+		}
+
+		&.user {
+			background-position: -128px -48px;
+		}
+
+		&.date {
+			background-position: -144px -48px;
+		}
+
+		&.article {
+			background-position: -160px -48px;
+		}
+
+		&.preview {
+			background-position: -176px -48px;
+		}
+
+		&.picker {
+			background-position: -192px -48px;
+		}
+
+		&.clipboard {
+			background-position: -206px -48px;
+		}
+
+		&.tagsico {
+			background-position: -223px -48px;
+		}
+
+		&.edit {
+			background-position: -239px -48px;
+		}
+
+		&.cross {
+			background-position: -255px -48px;
+		}
+
+		&.check {
+			background-position: -271px -48px;
+		}
+	}
+
+	/* Providers */
+	&.provider {
+		background-position: 0 0;
+
+		&.simple {
+			background-image: url(../providers/simple.png);
+		}
+
+		&.wordpress {
+			background-image: url(../providers/wordpress.png);
+		}
+
+		&.joomla {
+			background-image: url(../providers/joomla.png);
+		}
+
+		// Joomla! CCK
+		&.k2 {
+			background-image: url(../providers/k2.png);
+		}
+
+		&.zoo {
+			background-image: url(../providers/zoo.png);
+		}
+
+		&.seblod {
+			background-image: url(../providers/seblod.png);
+		}
+
+		&.easyblog {
+			background-image: url(../providers/easyblog.png);
+		}
+
+		&.contentbuilder {
+			background-image: url(../providers/contentbuilder.png);
+		}
+
+		&.fieldsattach {
+			background-image: url(../providers/fieldsattach.png);
+		}
+
+		// WP CCK
+
+		&.cfs {
+			background-image: url(../providers/cfs.png);
+		}
+
+		//&.cpt {}
+
+		&.pods {
+			background-image: url(../providers/pods.png);
+		}
+
+		//&.posttype {}
+
+		&.types {
+			background-image: url(../providers/types.png);
+		}
+	}
+
+	/* Media */
+	&.media {
+		background-position: 0 0;
+
+		&.mediamanager {
+			background-image: url(../media/mediamanager.png);
+		}
+
+		&.rokgallery {
+			background-image: url(../media/rokgallery.png);
+		}
+	}
+
+	/* Layouts */
+	/*&.layout {
+		background-image: url(../images/layouts.png);
+		&.tabs {
+			background-position: 0 0;
+		}
+
+		&.features {
+			background-position: 0 -16px;
+		}
+
+		&.lists {
+			background-position: 0 -32px;
+		}
+
+		&.headlines {
+			background-position: 0 -48px;
+		}
+	}*/
+
+	/* Animations */
+	&.animation {
+		width: 90px;
+		height: 60px;
+		background-position: 0 0;
+
+		// features
+		&.crossfade {
+			background-image: url(../images/animations/crossfade.gif);
+		}
+
+		&.fromTop {
+			background-image: url(../images/animations/fromTop.gif);
+		}
+
+		&.fromRight {
+			background-image: url(../images/animations/fromRight.gif);
+		}
+
+		&.fromBottom {
+			background-image: url(../images/animations/fromBottom.gif);
+		}
+
+		&.fromLeft {
+			background-image: url(../images/animations/fromLeft.gif);
+		}
+
+		&.fromLeft {
+			background-image: url(../images/animations/fromLeft.gif);
+		}
+
+		&.fromTopRight {
+			background-image: url(../images/animations/fromTopRight.gif);
+		}
+
+		&.fromTopLeft {
+			background-image: url(../images/animations/fromTopLeft.gif);
+		}
+
+		&.fromBottomLeft {
+			background-image: url(../images/animations/fromBottomLeft.gif);
+		}
+
+		&.fromBottomRight {
+			background-image: url(../images/animations/fromBottomRight.gif);
+		}
+
+		// strips
+		&.fade {
+			background-image: url(../images/animations/fade.gif);
+			.opacity(100);
+		}
+
+		&.slide {
+			background-image: url(../images/animations/slide.gif);
+		}
+
+		&.fadeDelay {
+			background-image: url(../images/animations/fadeDelay.gif);
+		}
+
+		&.flyIn {
+			background-image: url(../images/animations/flyIn.gif);
+		}
+
+		&.fallDown {
+			background-image: url(../images/animations/fallDown.gif);
+		}
+
+		&.floatUp {
+			background-image: url(../images/animations/floatUp.gif);
+		}
+
+		&.scaleIn {
+			background-image: url(../images/animations/no-preview.png);
+		}
+
+		&.scaleOut {
+			background-image: url(../images/animations/no-preview.png);
+		}
+	}
+}
+
+.active > i {
+	&.options {
+		background-position: 0 -16px;
+	}
+
+	&.menu-assignment {
+		background-position: -16px -16px;
+	}
+
+	&.advanced {
+		background-position: -32px -16px;
+	}
+
+	&.other {
+		background-position: -48px -16px;
+	}
+
+	&.article-without-items {
+		background-position: -64px -16px;
+	}
+
+	&.article-with-items {
+		background-position: -80px -16px;
+	}
+}
+
+.dropdown-toggle i.provider, .dropdown-menu i.provider,
+.dropdown-toggle i.layout, .dropdown-menu i.layout,
+.dropdown-toggle i.media, .dropdown-menu i.media {
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin-right: 5px;
+}
+
+/* XDebug fix */
+.xdebug-var-dump, .xdebug-error {
+	i {
+		background: none;
+		display: inline;
+		width: auto;
+		height: auto;
+	}
+}

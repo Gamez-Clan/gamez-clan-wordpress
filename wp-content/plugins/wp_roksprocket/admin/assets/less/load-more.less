@@ -1,0 +1,54 @@
+.load-more {
+	.user-select(none);
+	margin: 10px auto;
+	display: block;
+	padding: 5px;
+	width: 155px;
+
+	&.hide-load-more {
+		display: none;
+	}
+
+	span {
+		color: #797979;
+		font-size: 13px;
+		text-transform: uppercase;
+		text-shadow: 0 1px 0 #fff;
+		display:block;
+		line-height: 1.85em;
+
+		span.info {
+			color:#B7B7B7;
+			font-size:9px;
+			font-weight:bold;
+		}
+
+		strong {
+			color: #797979;
+			font-weight:normal;
+		}
+	}
+
+	&.load-all {
+
+		span {
+			line-height: 41px;
+		}
+
+		span span.info {
+			display: none;
+		}
+	}
+
+	&.loader {
+		span {
+			height: 40px;
+			background: url(../images/loader-32-transparent.gif) center center no-repeat;
+			display:block;
+			margin: 0 auto;
+			span {
+				display: none;
+			}
+		}
+	}
+}

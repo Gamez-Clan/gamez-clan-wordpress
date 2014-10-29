@@ -1,0 +1,2559 @@
+/* --------------------------------------------------------------------------------------
+#
+#	Simple:Press Template CSS
+#	Theme		:	css-only
+#	Author		:	Simple:Press
+#
+#	This is the main CSS file for the SP css-only theme.
+#   It's based on the default theme but css only for the ice overlay
+#
+#   ***********************************************************************************
+#   WARNING: It is highly recommended that you do NOT edit this theme's files.  Since
+#   it's one of the default themes supplied with Simple:Press, if you later update the
+#   theme any changes you have made will be lost.  You should instead make a copy of the
+#   theme to create your own theme and then make your edits and customizations there.
+#   ***********************************************************************************
+#
+# --------------------------------------------------------------------------------------
+*/
+
+/* ----------------------
+Some base, useful classes
+-------------------------*/
+
+#spMainContainer .spClear {
+	clear: both;
+}
+
+#spMainContainer .spClearRight {
+	clear: right;
+}
+
+#spMainContainer .spClearLeft {
+	clear: left;
+}
+
+#spMainContainer .spLeft {
+	float: left;
+}
+
+#spMainContainer .spRight {
+	float: right;
+}
+
+#spMainContainer .spTextRight {
+	text-align: right;
+}
+
+#spMainContainer .spTextLeft {
+	text-align: left;
+}
+
+#spMainContainer .spCenter {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#spMainContainer small {
+    font-size: 90%;
+	padding: 0;
+}
+
+/* ---------------
+Main Section classes
+------------------*/
+
+#spMainContainer {
+	color: #4c5d77;
+	background: #f6f8f9;
+	border: 1px solid #dde8ee;
+	font-family: inherit;
+    font-size: 100%;
+	line-height: 1.2em;
+	-webkit-border-radius: 5px; border-radius: 5px;
+	padding: 1px;
+}
+
+#spMainContainer .spHiddenSection,
+#spMainContainer .spInlineSection {
+	color: inherit;
+	background: inherit;
+	border: none;
+	padding: 0;
+	width: auto;
+}
+
+#spMainContainer .spInlineSection {
+	display: none;
+}
+
+#spMainContainer .spPlainSection {
+	color: inherit;
+	background: inherit;
+	border: none;
+	padding: 5px;
+	width: auto;
+}
+
+#spMainContainer .spColumnSection {
+	margin: 0;
+	padding: 5px 0;
+}
+
+#spMainContainer .spListSection {
+	color: #4c5d77;
+	background: #f6f8f9;
+	border: none;
+	padding: 5px 0;
+	width: 100%;
+}
+
+#spMainContainer .spGroupViewSection,
+#spMainContainer .spForumViewSection,
+#spMainContainer .spTopicViewSection,
+#spMainContainer .spTopicListSection,
+#spMainContainer .spMemberGroupsSection {
+	color: #4c5d77;
+	background: #dce7ee;
+	border: 1px solid #dddddd;
+	padding: 5px 0 1px 0;
+	margin: 0 5px 20px 5px;
+	-webkit-border-radius: 5px; border-radius: 5px;}
+
+#spMainContainer .spGroupForumSection,
+#spMainContainer .spForumTopicSection,
+#spMainContainer .spTopicListSection,
+#spMainContainer .spRecentPostSection .spTopicListSection,
+#spMainContainer .spSearchSection .spTopicListSection,
+#spMainContainer .spMemberListSection {
+	color: #4c5d77;
+	background: #eff3f8;
+	border: 1px solid #dddddd;
+	padding: 0;
+	margin: 2px;
+	-webkit-border-radius: 5px; border-radius: 5px;}
+
+#spMainContainer .spGroupForumSection:hover,
+#spMainContainer .spForumTopicSection:hover,
+#spMainContainer .spTopicListSection:hover,
+#spMainContainer .spMemberListSection:hover {
+	color: #4c5d77;
+	background: #eff3f8;
+	border: 1px solid #dddddd;
+}
+
+#spMainContainer .spGroupForumSection.spOdd,
+#spMainContainer .spForumTopicSection.spOdd,
+#spMainContainer .spTopicListSection.spOdd,
+#spMainContainer .spMemberListSection.spOdd {
+	color: #4c5d77;
+	background: #eff3f8;
+	border: 1px solid #dddddd;
+	padding: 0;
+	margin: 2px;
+	-webkit-border-radius: 5px; border-radius: 5px;}
+
+#spMainContainer .spGroupForumSection.spOdd:hover,
+#spMainContainer .spForumTopicSection.spOdd:hover,
+#spMainContainer .spTopicListSection.spOdd:hover,
+#spMainContainer .spMemberListSection.spOdd:hover {
+	color: #4c5d77;
+	background: #eff3f8;
+	border: 1px solid #dddddd;
+}
+
+#spMainContainer .spGroupForumSection.spEven,
+#spMainContainer .spForumTopicSection.spEven,
+#spMainContainer .spTopicListSection.spEven,
+#spMainContainer .spMemberListSection.spEven {
+	color: #4c5d77;
+	background: #f9f9f9;
+	border: 1px solid #dddddd;
+	padding: 0;
+	margin: 2px;
+	-webkit-border-radius: 5px; border-radius: 5px;}
+
+#spMainContainer .spGroupForumSection.spEven:hover,
+#spMainContainer .spForumTopicSection.spEven:hover,
+#spMainContainer .spTopicListSection.spEven:hover,
+#spMainContainer .spMemberListSection.spEven:hover {
+	color: #4c5d77;
+	background: #f9f9f9;
+	border: 1px solid #dddddd;
+}
+
+#spMainContainer .spTopicListSection.spOdd,
+#spMainContainer .spTopicListSection.spEven {
+	padding: 4px 15px 0 15px;
+}
+
+#spMainContainer .spTopicListSection .spListTopicRowName {
+	font-family: inherit;
+	font-weight: bold;
+}
+
+#spMainContainer .spRecentPostSection .spTopicListSection,
+#spMainContainer .spSearchSection .spTopicListSection,
+#spMainContainer .spListViewSection .spTopicListSection {
+	padding: 3px 9px 0 9px;
+	margin: 0 5px;
+}
+
+#spMainContainer .spRecentPostSection .spTopicListSection .spListForumRowName,
+#spMainContainer .spSearchSection .spTopicListSection .spListForumRowName {
+    font-size:  85%;
+	padding: 0;
+	margin: 0;
+}
+
+#spMainContainer .spRecentPostSection .spTopicListSection .spListTopicRowName,
+#spMainContainer .spSearchSection .spTopicListSection .spListTopicRowName {
+	font-size:  90%;
+	padding: 0 0 3px 0;
+}
+
+#spMainContainer .spListViewSection .spTopicListSection .spListTopicRowName {
+	padding: 0 0 3px 0;
+}
+
+#spMainContainer .spRecentPostSection .spTopicListSection .spIcon,
+#spMainContainer .spSearchSection .spTopicListSection .spIcon,
+#spMainContainer .spListViewSection .spTopicListSection .spIcon {
+	padding: 0 5px 0 0;
+}
+
+#spMainContainer .spRecentPostSection .spTopicListSection .spListLabel,
+#spMainContainer .spRecentPostSection .spTopicListSection .spListPostLink,
+#spMainContainer .spSearchSection .spTopicListSection .spListLabel,
+#spMainContainer .spSearchSection .spTopicListSection .spListPostLink {
+    font-size: 85%;
+    clear: both;
+}
+
+#spMainContainer .spStatsSection {
+	background: #f0f4f7;
+	border:	1px solid #dddddd;
+	color: #4c5d77;
+	padding: 5px;
+	margin: 5px;
+	width: auto;
+	-webkit-border-radius: 5px; border-radius: 5px;}
+
+#spMainContainer .spProfileShowSection,
+#spMainContainer .spProfileShowHeaderSection {
+	color: inherit;
+	background: inherit;
+	border: none;
+	padding: 5px;
+	width: auto;
+}
+
+#spMainContainer .spProfileShowHeaderSection {
+	margin: 10px 5px;
+}
+
+#spMainContainer .spProfileShowSignatureSection,
+#spMainContainer .spProfileShowBasicSection,
+#spMainContainer .spProfileShowDetailsSection,
+#spMainContainer .spProfileShowPhotosSection,
+#spMainContainer .spProfileShowLinkSection {
+	background: #eff3f8;
+	border:	1px solid #0075B0;
+	color: #4c5d77;
+	padding: 10px;
+	margin: 10px 5px 20px;
+	width: auto;
+	-webkit-border-radius: 5px; border-radius: 5px;}
+
+#spMainContainer .spProfileShowPhotosSection table.spProfileShowUserPhotos {
+    width: 100%;
+}
+
+#spMainContainer .spProfileShowPhotosSection table.spProfileShowUserPhotos td {
+    background: inherit;
+    padding: 10px 0;
+}
+
+#spMainContainer .spProfileShowAvatarSection,
+#spMainContainer .spProfileShowInfoSection,
+#spMainContainer .spProfileShowIdentitiesSection,
+#spMainContainer .spProfileShowStatsSection {
+	color: inherit;
+	background: transparent;
+	border: none;
+	margin: 10px 5px;
+	width: auto;
+}
+
+/* --------------------------
+Post Sections - User and Post
+-----------------------------*/
+
+#spMainContainer .spTopicPostSection {
+	color: #4c5d77;
+	background: #eff3f8;
+	border: 1px solid #dddddd;
+	margin: 2px;
+	overflow: hidden;
+	padding: 2px;
+	-webkit-border-radius: 5px; border-radius: 5px;
+	position: relative;
+}
+
+#spMainContainer .spTopicPostSection.spOdd {
+	color: #4c5d77;
+	background: #eff3f8;
+	border: 1px solid #dddddd;
+}
+
+#spMainContainer .spTopicPostSection.spEven {
+	color: #4c5d77;
+	background: #eff3f8;
+	border: 1px solid #dddddd;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection {
+	padding: 4px 2px 200px 4px;
+	margin-bottom: -200px;
+	background: #FFFFFF;
+	-webkit-border-radius: 0px 5px 5px 0px; border-radius: 0px 5px 5px 0px;}
+
+#spMainContainer .spTopicPostSection.spOdd .spPostSection {
+	padding: 4px 2px 200px 4px;
+	margin-bottom: -200px;
+	background: #ffffff;
+	-webkit-border-radius: 0px 5px 5px 0px; border-radius: 0px 5px 5px 0px;}
+
+#spMainContainer .spTopicPostSection.spEven .spPostSection {
+	padding: 4px 2px 200px 4px;
+	margin-bottom: -200px;
+	background: #FFFFFF;
+	-webkit-border-radius: 0px 5px 5px 0px; border-radius: 0px 5px 5px 0px;}
+
+#spMainContainer .spTopicPostSection .spPostUserDate,
+#spMainContainer .spTopicPostSection .spPostUserName,
+#spMainContainer .spTopicPostSection .spPostUserLocation,
+#spMainContainer .spTopicPostSection .spPostUserPosts,
+#spMainContainer .spTopicPostSection .spPostUserRegistered,
+#spMainContainer .spTopicPostSection .spPostUserRank,
+#spMainContainer .spTopicPostSection .spPostUserStatus,
+#spMainContainer .spTopicPostSection .spPostUserSpecialRank,
+#spMainContainer .spTopicPostSection .spPostUserMemberships {
+    font-size: 80%;
+	margin: 0;
+	padding: 5px;
+	line-height: 1em;
+}
+
+#spMainContainer .spTopicPostSection .spPostUserName {
+	font-family: inherit;
+	font-weight: bold;
+}
+
+#spMainContainer .spTopicPostSection .spPostUserRank img,
+#spMainContainer .spTopicPostSection .spPostUserSpecialRank img {
+	margin: auto;
+}
+
+
+#spMainContainer .spTopicPostSection .spPostUserAvatar img {
+	margin: auto;
+}
+
+#spMainContainer .spTopicPostSection .spPostUserSignature {
+    font-size: 90%;
+	padding: 20px 0;
+	margin: 0;
+    border-top: 1px solid #DDE8EE;
+}
+
+#spMainContainer .spTopicPostSection .spPostUserSignature a {
+	text-decoration: underline;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent {
+    border-top: 1px solid #DDE8EE;
+    color: #4C5D77;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 90%;
+    line-height: 1.2em;
+}
+
+#spMainContainer .spTopicPostSection.spEven .spPostContentSection .spPostUserPosts {
+    border-top: 1px solid #DDE8EE;
+    color: #4C5D77;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 90%;
+}
+
+#spMainContainer .spTopicPostSection.spOdd .spPostContentSection .spPostUserPosts {
+    border-top: 1px solid #DDE8EE;
+    color: #4C5D77;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 90%;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent p {
+	padding-bottom: 1em;
+	word-wrap: break-word;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent h1,
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent h2,
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent h3,
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent h4,
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent h5,
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent h6 {
+	margin: 0;
+	padding: 5px 0px;
+	font-family: inherit;
+	font-weight: bold;
+	letter-spacing: 0;
+	text-transform: none;
+    line-height: 1em;
+	word-wrap: break-word;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent h1 {
+    font-size:  1.6em;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent h2 {
+    font-size:  1.5em;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent h3 {
+    font-size:  1.4em;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent h4 {
+    font-size:  1.3em;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent h5 {
+    font-size:  1.2em;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent h6 {
+    font-size:  1.1em;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent pre {
+	margin: 0;
+	padding: 5px 0px;
+	word-wrap: break-word;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent blockquote {
+    overflow: hidden;
+	background: #eff3f8;
+	color: #4c5d77;
+	border: 1px solid #dddddd;
+	margin: 0 0 1em;
+	padding: 1em 1em 0 1em;
+	-webkit-border-radius: 5px; border-radius: 5px;	font-weight: normal;
+	word-wrap: break-word;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent cite {
+    overflow: hidden;
+	background: #dce7ee;
+	border: 1px solid #dddddd;
+	color: #4c5d77;
+	padding: 2px 5px;
+	font-style: italic;
+	word-wrap: break-word;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent img {
+    overflow: hidden;
+	margin: 5px;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent .sfimageright {
+	float: right;
+	margin: 0;
+	padding: 5px 0 5px 20px;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent .sfimageleft {
+	float: left;
+	margin: 0;
+	padding: 5px 20px 5px 0;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent .sfimagecenter {
+	display: block;
+	margin: 0 auto;
+	padding: 5px 20px;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent .sfimagebaseline {
+	margin: 0;
+	padding: 10px
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent .sfimagetop {
+	vertical-align: top;
+	margin: 0;
+	padding: 10px
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent .sfimagemiddle {
+	vertical-align: middle;
+	margin: 0;
+	padding: 10px
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent .sfimagebottom {
+	vertical-align: bottom;
+	margin: 0;
+	padding: 10px
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent .sfimagetexttop {
+	vertical-align: text-top;
+	margin: 0;
+	padding: 10px
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent .sfimagetextbottom {
+	vertical-align: text-bottom;
+	margin: 0;
+	padding: 10px
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent .sfmouseright {
+	float: right;
+	margin-right: -39px;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent .sfmouseleft {
+	float: left;
+	margin-left: -39px;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent .sfmouseother {
+	margin: 0 0 0 -34px;
+	padding: 20px 0;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent a {
+    overflow: hidden;
+	text-decoration: underline;
+	word-wrap: break-word;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent ul,
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent ol {
+	padding: 0 0 1em 2em;
+	list-style-position: inside;
+	word-wrap: break-word;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent ul li,
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent ol li {
+	padding-bottom: 0.5em;
+	word-wrap: break-word;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent hr {
+	border: 1px solid #DDE8EE;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent table {
+	width: 100%;
+	margin: 1em 0;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent table td {
+	padding: 0.5em;
+	border: 1px solid #DDE8EE;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent .spSpoiler {
+	margin: 10px 0;
+	padding: 0;
+	border: 1px solid #0075B0;
+	-webkit-border-radius: 5px; border-radius: 5px;}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent .spSpoilerContent {
+	padding: 10px 10px 0;
+	margin: 0 10px 10px;
+	background: #eff3f8;
+	color: #4c5d77;
+	display: none;
+	-webkit-border-radius: 5px; border-radius: 5px;}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent .spSpoiler .spReveal {
+	padding: 10px 0;
+	text-align: center;
+    font-size: 0.85em;
+	font-family: inherit;
+	font-weight: bold;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent span.sfcode,
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent div.sfcode {
+    overflow: hidden;
+	background: #f0f4f7;
+	color: #4c5d77;
+	border: 1px solid #dddddd;
+	font-family: monospace, Courier;
+    font-size: 1em;
+	-webkit-border-radius: 5px; border-radius: 5px;	display: block;
+	margin: 2em;
+	padding: 0.5em;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent div.sfcode table.syntax {
+    width: 99%;
+    padding: 0;
+    margin: 0;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent div.sfcode table.syntax td {
+	padding: 0;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent input.sfcodeselect {
+	margin: 5px !important;
+	padding: 2px !important;
+	font-size: 10px;
+	-webkit-border-radius: 5px; border-radius: 5px;}
+
+#spMainContainer .spPostContent iframe {
+    max-width:100%;
+}
+
+/* --------------------------
+Posting form
+-----------------------------*/
+#spMainContainer #spPostForm {
+	padding: 0 0 10px;
+	margin: 10px 5px;
+	background: #FFFFFF;
+	color: #4C5D77;
+    font-size: 85%;
+	width: auto;
+}
+
+#spMainContainer #spPostForm .spEditorFieldset {
+	-webkit-border-radius: 5px; border-radius: 5px;	margin: 0;
+	padding: 10px;
+}
+
+#spMainContainer #spPostForm .spEditorSection {
+	background: #eff3f8;
+	border: 1px solid #DDE8EE;
+	padding: 7px 10px;
+	margin: 10px 0 0;
+	-webkit-border-radius: 5px; border-radius: 5px;	width: 100%;
+	width: auto;
+}
+
+#spMainContainer #spPostForm .spEditorSectionLeft {
+	float: left;
+	width: 45%;
+}
+
+#spMainContainer #spPostForm .spEditorSectionRight {
+	float: right;
+	width: 45%;
+}
+
+#spMainContainer #spPostForm .spEditorHeading {
+	border-bottom: 1px solid #DDE8EE;
+	padding: 0 0 3px;
+	margin: 0 0 7px;
+	text-align: center;
+	font-family: inherit;
+	font-weight: bold;
+}
+
+#spMainContainer #spPostForm .spEditorSection .spEditorMessage {
+	background: #FFFFFF;
+	border: 1px solid #DDE8EE;
+	-webkit-border-radius: 5px; border-radius: 5px;    font-family: inherit;
+	font-weight: bold;
+    margin: 5px 5px 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+#spMainContainer #spPostForm .spEditor .spEditorTitle {
+	font-family: inherit;
+	font-weight: bold;
+    font-size: 1.1em;
+	padding: 5px;
+}
+
+#spMainContainer #spPostForm .spEditor .spEditorTitle input {
+	width: 75%;
+	margin: 5px 0;
+}
+
+#spMainContainer #spPostForm .spEditor p.spLabelSmall {
+	padding: 10px 5px;
+	text-align: center;
+}
+
+#spMainContainer #spPostForm #spEditorContent {
+	clear: both;
+	margin: 0 -2px;
+	padding: 0 0 0 3px;
+}
+
+#spMainContainer #spPostForm #spEditorContent td.mceIframeContainer,
+#spMainContainer #spPostForm #spEditorContent td.mceStatusbar {
+	border: 1px solid #DDE8EE;
+}
+
+#spMainContainer #spPostForm .spEditorSmileys {
+	padding: 0 10px;
+}
+
+#spMainContainer #spPostForm .spEditorSmileys img.spSmiley {
+	padding: 3px 1px;
+	cursor: pointer;
+}
+#spMainContainer #spPostForm .spEditorSmileys img.spSmiley:active {
+border: 1px solid transparent;
+}
+
+#spMainContainer #spPostForm .spEditorSubmit {
+	text-align: center;
+	padding: 15px 0 5px;
+	clear: both;
+}
+
+#spMainContainer #spPostForm .spEditorSubmit .spEditorTitle {
+	text-align: center;
+	padding-top: 0;
+}
+
+#spMainContainer #spPostForm .spEditor .spEditorSubmit .spEditorSpam {
+	padding: 0 0 5px;
+}
+
+#spMainContainer #spPostForm .spEditor .spEditorSubmit .spEditorSpam input {
+	text-align: center;
+}
+
+#spMainContainer #spPostForm .spEditorSubmit .spEditorSubmitButton {
+	padding-top: 5px;
+}
+
+#spMainContainer .spEditor .spPtEditor {
+	width: 98%;
+}
+
+/* --------------------------
+General multi-purpose classes
+-----------------------------*/
+
+#spMainContainer a:link,
+#spMainContainer a:active,
+#spMainContainer a:visited,
+#spMainContainer .spLink:link,
+#spMainContainer .spLink:active,
+#spMainContainer .spLink:visited {
+    color: #115588;
+    text-decoration: none;
+}
+
+#spMainContainer a:hover,
+#spMainContainer .spLink:hover {
+    color: #dd2222;
+}
+
+#spMainContainer .spImg {
+	vertical-align: middle;
+	padding: 2px;
+	border: none;
+}
+
+#spMainContainer .spIcon {
+	vertical-align: middle;
+	margin: 0;
+	padding: 5px;
+	border: none;
+}
+
+#spMainContainer .spIconSmall {
+	vertical-align: middle;
+	padding: 0 5px 0 5px;
+	border: none;
+}
+
+#spMainContainer .spInRowPageLinks img.spIconSmall {
+	margin-top: -1px;
+}
+
+#spMainContainer .spLabel,
+#spMainContainer .spLabelBordered {
+    font-size: 100%;
+	font-weight: normal;
+	margin: 0 10px 0 0;
+	padding: 0;
+}
+
+#spMainContainer .spLabelBordered {
+	width: auto;
+	height: 21px;
+	text-align: center;
+	line-height: 1.6em;
+	padding: 1px 7px;
+	margin: 2px 2px;
+    font-size: 80%;
+	font-family: inherit;
+	outline-style: none;
+	color: #4c5d77;
+	border: 1px solid #0075B0;
+	-webkit-border-radius: 5px; border-radius: 5px;}
+
+#spMainContainer .spLabelSmall {
+    font-size: 80%;
+	margin: 0;
+	padding: 5px;
+	line-height: 1em;
+}
+
+#spMainContainer .spMessage {
+	text-align: center;
+	font-family: inherit;
+	font-weight: bold;
+	margin: 5px;
+	padding: 10px;
+	color: #4c5d77;
+	background: #f0f4f7;
+	border: 1px solid #dddddd;
+	-webkit-border-radius: 5px; border-radius: 5px;}
+
+#spMainContainer #spUserNotices {
+	color: #4c5d77;
+	background: #ffffdd;
+	border: 1px solid #dde8ee;
+	font-family: inherit;
+	font-weight: normal;
+	font-size: 90%;
+}
+
+#spMainContainer a.spButton {
+	width: auto;
+	height: 21px;
+	text-align: center;
+	line-height: 1.6em;
+	padding: 1px 7px;
+	margin: 2px 2px;
+    font-size: 80%;
+	font-family: inherit;
+	outline-style: none;
+	color: #4c5d77;
+	text-decoration: none;
+	cursor: pointer;
+	background: -moz-linear-gradient(100% 100% 90deg, #cfdfee, #f9fbfc);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9fbfc), to(#cfdfee));
+    background: -ms-linear-gradient(top, #f9fbfc 0%,#cfdfee 100%);
+    background: -o-linear-gradient(top, #f9fbfc 0%,#cfdfee 100%);
+    background: linear-gradient(top, #f9fbfc, #cfdfee);
+    background-color: #f9fbfc;
+	border: 1px solid #0075B0;
+	-webkit-border-radius: 5px; border-radius: 5px;
+}
+
+#spMainContainer a.spButton:hover {
+	border: 1px solid #cccccc;
+}
+
+#spMainContainer a.spButton img {
+	vertical-align: middle;
+	margin: 0 3px 2px 0;
+	padding: 0;
+}
+
+#spMainContainer .spButtonAsLabel {
+	cursor: default;
+	background: #f0f4f7;
+	width: auto;
+	height: 21px;
+	text-align: center;
+	line-height: 1.6em;
+	padding: 1px 7px;
+	margin: 2px 2px;
+    font-size: 80%;
+	font-family: inherit;
+	outline-style: none;
+	color: #4c5d77;
+	text-decoration: none;
+	border: 1px solid #0075B0;
+	-webkit-border-radius: 5px; border-radius: 5px;
+}
+
+#spMainContainer .spButton, #spMainContainer .spSubmit {
+	white-space: normal;
+}
+
+/* -------------
+Specific classes
+----------------*/
+
+#spMainContainer.spForumToolsPopup {
+	padding: 5px;
+}
+
+#spMainContainer .spForumToolsHeader {
+	padding: 5px;
+	border-bottom: 1px solid #dddddd;
+	margin-bottom: 5px;
+}
+
+#spMainContainer .spForumToolsHeader .spForumToolsHeaderTitle {
+	font-family: inherit;
+	font-weight: bold;
+	padding: 0;
+	text-align: center;
+}
+
+#spMainContainer .spPopupTable {
+	width: 100%;
+}
+
+#spMainContainer.spForumToolsPopup input.spControl,
+#spMainContainer.spForumToolsPopup textarea.spControl {
+	width: 85%;
+}
+
+#spMainContainer .spPopupTable td {
+	padding: 8px 10px;
+}
+
+#spMainContainer .spProfileShowPhotosSection .spImg {
+	border:	1px solid #0075B0;
+	padding: 4px;
+}
+
+#spMainContainer .spProfileShowHeader {
+    font-size: 1.4em;
+}
+
+#spMainContainer .spProfileShowHeaderEdit {
+    font-size: 0.6em;
+}
+
+#spMainContainer img.spOnlineStatus {
+	padding-left: 5px;
+}
+
+#spMainContainer .spProfileShowSection hr {
+    background: #4c5d77;
+    color: #4c5d77;
+    border: none;
+    height: 1px;
+}
+
+#spMainContainer #spForumTop,
+#spMainContainer #spForumBottom {
+	line-height: 1px;
+}
+
+#spMainContainer #spLoggedInOutLabel p {
+	line-height: 1.2em;
+	margin: 0;
+	padding: 0;
+}
+
+#spMainContainer #spBreadCrumbs {
+    font-size: 0.85em;
+	min-width: 75%;
+	line-height: 1.2em;
+}
+
+#spMainContainer #spBreadCrumbs span.spBreadCrumbs {
+    margin-left:20px;
+    min-height:2px;
+}
+
+#spMainContainer #spBreadCrumbs a {
+	color: #115588;
+	text-decoration: none;
+}
+
+#spMainContainer #spBreadCrumbs a:hover {
+	color: #dd2222;
+}
+
+#spMainContainer #spAck img.spIcon,
+#spMainContainer #spBreadCrumbs img.spIcon {
+	padding: 0 5px;
+}
+
+#spMainContainer .spHeaderIcon {
+	margin: 5px 15px 5px 5px;
+}
+
+#spMainContainer .spRowIcon {
+	margin: 5px 2px 5px 5px;
+}
+
+#spMainContainer .spStatusIcon {
+	margin: 5px 5px 0 0;
+}
+
+#spMainContainer .spHeaderName {
+    font-size: 100%;
+	font-family: inherit;
+	font-weight: bold;
+	padding: 5px 0 4px 0;
+}
+
+#spMainContainer .spHeaderDescription {
+    font-size: 80%;
+	padding-bottom: 10px;
+	margin-left: 10px;
+}
+
+#spMainContainer .spInHeaderLabel {
+    font-size: 80%;
+	padding: 0 5px 0 10px;
+}
+
+#spMainContainer .spInHeaderSubForums {
+    font-size: 80%;
+	border-top: 1px solid #dddddd;
+	padding: 5px;
+}
+
+#spMainContainer .spInHeaderSubForums .spInHeaderSubForumlink {
+	color: #4c5d77;
+}
+
+#spMainContainer .spInHeaderSubForums .spInHeaderSubForumlink:hover {
+}
+
+#spMainContainer .spInHeaderSubForums .spInHeaderLabel ul,
+#spMainContainer .spInHeaderSubForums .spInHeaderLabel {
+	list-style-type: none;
+}
+
+#spMainContainer .spHeaderMessage {
+	margin: 5px;
+	padding: 8px;
+	color: #225599;
+	border: 1px solid #dde8ee;
+	background: #f6f8f9;
+	border-radius: 5px;
+}
+
+#spMainContainer a.spRowName {
+    font-size: 95%;
+	font-family: inherit;
+	font-weight: bold;
+	margin: 2px 10px 2px 0;
+	display: block;
+}
+
+#spMainContainer .spMemberListSection .spRowName {
+    font-size: 90%;
+}
+
+#spMainContainer .spRowDescription {
+    font-size: 80%;
+	line-height: 1.1em;
+}
+
+#spMainContainer .spInRowPageLinks {
+	padding: 5px 0 0 0;
+}
+
+#spMainContainer a.spInRowForumPageLink {
+    font-size: 85%;
+	text-decoration: none;
+	color: #225599;
+	margin: 0;
+	padding: 0 3px 0 0;
+}
+
+#spMainContainer a.spInRowForumPageLink:hover {
+	color: #225599;
+}
+
+#spMainContainer .spInRowCount {
+	vertical-align: middle;
+	text-align: center;
+	line-height: 1em;
+	margin: 0;
+	padding: 0;
+}
+
+#spMainContainer .spInRowPostLink {
+	vertical-align: middle;
+	text-align: center;
+	line-height: 1em;
+	margin: 0;
+	padding: 0;
+}
+
+#spMainContainer a.spRowName,
+#spMainContainer a.spInRowLastPostLink {
+	color: #225599;
+	text-decoration: none;
+}
+
+#spMainContainer a.spRowName:hover,
+#spMainContainer a.spInRowLastPostLink:hover {
+	color: #dd2222;
+}
+
+#spMainContainer a.spInRowSubForumlink {
+	color: #225599;
+	text-decoration: none;
+}
+
+#spMainContainer a.spInRowSubForumlink:hover {
+	color: #225599;
+}
+
+#spMainContainer .spInRowLabel {
+    font-size: 80%;
+	color: #7788aa;
+	padding: 0;
+	margin: 0;
+}
+
+#spMainContainer .spInRowSubForums .spInRowLabel ul,
+#spMainContainer .spInRowSubForums .spInRowLabel {
+	list-style-type: none;
+}
+
+#spMainContainer .spInRowRank,
+#spMainContainer .spInRowDate,
+#spMainContainer .spInRowNumber,
+#spMainContainer .spForumModeratorList {
+    font-size: 90%;
+}
+
+#spMainContainer .spMemberListSection .spInRowText,
+#spMainContainer .spMemberListSection .spInRowRank,
+#spMainContainer .spMemberListSection .spInRowDate,
+#spMainContainer .spMemberListSection .spInRowNumber {
+    font-size: 80%;
+}
+
+#spMainContainer a.spInRowLastPostLink {
+    font-size: 80%;
+}
+
+#spMainContainer .spInRowLabel a.spInRowLastPostLink img {
+    padding-bottom: 30px;
+}
+
+#spMainContainer .spOdd .spInRowSubForums {
+    font-size: 80%;
+	border-top: 1px solid #dddddd;
+	padding: 5px;
+}
+
+#spMainContainer .spOdd:hover .spInRowSubForums {
+    font-size: 80%;
+	border-top: 1px solid #dddddd;
+	padding: 5px;
+}
+
+#spMainContainer .spEven .spInRowSubForums {
+    font-size: 80%;
+	border-top: 1px solid #dddddd;
+	padding: 5px;
+}
+
+#spMainContainer .spEven:hover .spInRowSubForums {
+    font-size: 80%;
+	border-top: 1px solid #dddddd;
+	padding: 5px;
+}
+
+#spMainContainer #spAck {
+	padding: 0 75px;
+    font-size: 85%;
+    display: inline;
+}
+
+#spMainContainer #sfAbout {
+	text-align: center;
+}
+
+#spMainContainer div.spGoToBottom {
+	padding: 0 0 0 10px;
+}
+
+#spMainContainer #spUnreadPostsInfo {
+    font-size: 0.9em;
+}
+
+#spMainContainer #spUnreadPostsInfo > span {
+	padding-right: 5px;
+	line-height: 1em;
+}
+
+#spAbout {
+	text-align: center;
+}
+
+/* --------------------
+Page Links
+-----------------------*/
+#spMainContainer .spPageLinks {
+	margin: 0 0 5px 5px;
+}
+
+#spMainContainer .spPageLinks a.spPageLinks {
+    font-size: 0.8em;
+	border: 1px solid #dddddd;
+	color: #225599;
+	margin: 0 0.2em;
+	padding: 0.25em 0.5em;
+	-webkit-border-radius: 5px; border-radius: 5px;}
+
+#spMainContainer .spPageLinks a.spPageLinks:hover {
+	background: #dce7ee;
+	color: #4c5d77;
+}
+
+#spMainContainer .spPageLinks a.spPageLinks.spCurrent {
+	background: #dce7ee;
+	color: #4c5d77;
+}
+
+#spMainContainer .spPageLinks a.spPageLinks.spIcon {
+	border: none;
+}
+
+#spMainContainer .spPageLinks img.spIcon {
+	padding: 0;
+}
+
+/* --------------------
+Stats
+-----------------------*/
+#spMainContainer .spStatsSection p {
+	margin: 0;
+	padding: 0;
+}
+
+#spMainContainer .spForumTimeZone,
+#spMainContainer .spUserTimeZone {
+	width: 100%;
+	padding: 0 0 5px 0;
+	margin-bottom: 5px;
+    font-size: 0.8em;
+}
+
+#spMainContainer .spForumTimeZone {
+	border-bottom: 1px solid #dddddd;
+	text-align: right;
+}
+
+#spMainContainer .spUserTimeZone {
+    margin-top: -26px;
+	text-align: left;
+}
+
+#spMainContainer .spUserTimeZone span,
+#spMainContainer .spForumTimeZone span {
+	padding: 0 0 5px 0;
+	font-family: inherit;
+	font-weight: bold;
+}
+
+#spMainContainer .spForumStatsTitle,
+#spMainContainer .spMembershipStatsTitle,
+#spMainContainer .spTopPosterStatsTitle,
+#spMainContainer .spMostOnline span,
+#spMainContainer .spCurrentBrowsing span,
+#spMainContainer .spNewMembersTitle {
+	padding: 0 0 5px 0;
+	font-family: inherit;
+	font-weight: bold;
+}
+
+#spMainContainer .spCurrentOnline span {
+	font-family: inherit;
+	font-weight: bold;
+}
+
+#spMainContainer .spCurrentOnline span.spOnlineUser {
+	font-weight: normal;
+}
+
+/*#spMainContainer span.spNewMembersTitle, */
+#spMainContainer span.spModeratorsTitle,
+#spMainContainer span.spAdministratorsTitle,
+#spMainContainer span.spUserGroupListTitle {
+	padding: 8px 0 5px;
+	font-family: inherit;
+	font-weight: bold;
+}
+
+#spMainContainer .spOnlineStats,
+#spMainContainer .spForumStats,
+#spMainContainer .spMembershipStats,
+#spMainContainer .spTopPosterStats,
+#spMainContainer .spNewMembers,
+#spMainContainer .spModerators,
+#spMainContainer .spAdministrators,
+#spMainContainer .spUserGroupList {
+	margin: 0;
+    font-size: 0.8em;
+	padding: 0 10px 0 0;
+}
+
+#spMainContainer .spAdministrators,
+#spMainContainer .spUserGroupList {
+	padding-top: 5px;
+}
+
+#spMainContainer .spNewMembers,
+#spMainContainer .spModerators,
+#spMainContainer .spUserGroupList {
+	width: 100%;
+	border-top: 1px solid #dddddd;
+	padding: 5px 0;
+}
+
+#spMainContainer .spOnlineStats p,
+#spMainContainer .spForumStats p,
+#spMainContainer .spMembershipStats p,
+#spMainContainer .spTopPosterStats p,
+#spMainContainer .spNewMembers p,
+#spMainContainer .spModerators p,
+#spMainContainer .spAdministrators p
+#spMainContainer .spUserGroupList p {
+	margin: 0;
+	padding: 0 0 3px;
+}
+
+#spMainContainer .spOnlineStats p {
+	margin-bottom: 5px;
+}
+
+#spMainContainer .spNewMembers .spNewMembersList {
+	font-weight: normal;
+}
+
+/* --------------------
+Profile
+-----------------------*/
+
+#spMainContainer a.spProfilePopupLink.spLink,
+#spMainContainer a.spWebLink.spLink,
+#spMainContainer a.spProfilePage.spLink,
+#spMainContainer a.spBPProfile.spLink,
+#spMainContainer a.spWPProfile.spLink,
+#spMainContainer a.spUserDefinedProfile.spLink {
+	color: #225599;
+	text-decoration: none;
+}
+
+#spMainContainer a.spProfilePopupLink.spLink:hover,
+#spMainContainer a.spWebLink.spLink:hover,
+#spMainContainer a.spProfilePage.spLink:hover,
+#spMainContainer a.spBPProfile.spLink:hover,
+#spMainContainer a.spWPProfile.spLink:hover,
+#spMainContainer a.spUserDefinedProfile.spLink:hover {
+	color: #225599;
+}
+
+/* --------------------
+Forms
+-----------------------*/
+
+#spMainContainer #spLoginForm,
+#spMainContainer #spSearchFormAdvanced,
+#spMainContainer #spHiddenTimestamp {
+	display: none;
+	margin: 3px auto;
+	padding: 0;
+	text-align: center;
+    font-size: 90%;
+    line-height: 23px;
+}
+
+#spMainContainer #spHiddenTimestamp select.spControl  {
+    margin-left: 30px;
+}
+
+#spMainContainer #spHiddenTimestamp .spControl  {
+    margin: 0 5px;
+}
+
+#spMainContainer #spLoginForm h2,
+#spMainContainer #spSearchFormAdvanced h2 {
+	margin: 0;
+	padding: 0;
+	clear: none;
+}
+
+#spMainContainer #spLoginForm fieldset.spControl {
+	vertical-align: top;
+	height: 220px;
+	margin-top: 0px;
+}
+
+#spMainContainer #loginform input {
+	margin: 2px 0;
+}
+
+#spMainContainer #spLoginForm form.spForm {
+	margin: 0 auto;
+    width: 250px;
+    text-align: left;
+}
+
+#spMainContainer #spLoginForm form.spForm input {
+    width: 235px;
+}
+
+#spMainContainer #spLoginForm form.spForm input.spSubmit {
+    width: auto;
+}
+
+#spMainContainer #spLoginForm form.spForm p {
+    padding: 5px 0;
+    clear: both;
+}
+
+#spMainContainer #spLoginForm form.spForm p.spForm {
+    text-align: center;
+    padding: 10px 0;
+}
+
+#spMainContainer .spSearchForm a {
+    font-size: 0.8em;
+    margin: 0 5px;
+}
+
+#spMainContainer .spSearchSection {
+	float: left;
+	padding: 0;
+	width: 100%;
+    margin-bottom: 5px;
+}
+
+#spMainContainer .spSearchFormSubmit {
+	float: left;
+	padding: 0;
+	width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#spMainContainer .spSearchFormSubmit a {
+    padding: 5px;
+}
+
+#spMainContainer .spSearchMember .spSearchSection,
+#spMainContainer .spSearchTopicStatus .spSearchSection {
+	text-align: left;
+}
+
+#spMainContainer .spSearchSection .spRadioSection {
+	padding: 0 5% 0 0;
+	text-align: left;
+	width: 25%;
+}
+
+#spMainContainer p.spSearchForumScope,
+#spMainContainer p.spSearchSiteScope,
+#spMainContainer p.spSearchMatch,
+#spMainContainer p.spSearchOptions {
+	text-align: center;
+	font-family: inherit;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+
+#spMainContainer p.spSearchSiteScope {
+	margin-top: 20px;
+}
+
+#spMainContainer p.spSearchDetails {
+	margin: 10px 0 0 0;
+	width: 100%;
+	border-top: 1px solid #dde8ee;
+	padding: 10px 0 0 0;
+	text-align: left;
+    font-size: 0.8em;
+}
+
+#spMainContainer .spSearchMember input.spControl {
+	height: 25px;
+	line-height: 1.6em;
+	margin-right: 10px;
+}
+
+#spMainContainer label.spRadio,
+#spMainContainer label.spCheckbox,
+#spMainContainer label.spSelect {
+	margin: 0;
+	padding: 4px 5px 4px 0px;
+	background: transparent;
+	line-height: 14px;
+}
+
+/* --------------------
+Form Controls
+-----------------------*/
+
+#spMainContainer textarea.spControl,
+#spMainContainer select.spControl,
+#spMainContainer input.spControl {
+	height: 25px;
+	border: 1px solid #0075b0;
+	background: #f2f3f3;
+	color: #4C5D77;
+	font-family: inherit;
+    font-size: 100%;
+	line-height: 1.6em;
+	padding: 0 5px;
+	margin: 0;
+	width: auto;
+	-webkit-border-radius: 5px; border-radius: 5px;}
+
+#spMainContainer textarea.spControl {
+	height: auto;
+	resize: vertical;
+}
+
+#spMainContainer select.spSelect {
+	width: auto;
+	border: 1px solid #0075b0;
+	background: #f2f3f3;
+	color: #4C5D77;
+}
+
+#spMainContainer input.spSubmit {
+	width: auto;
+	min-height: 25px;
+	height: auto;
+	text-align: center;
+	padding: 1px 7px 4px;
+	margin: 0 4px 3px 4px;
+    font-size: 80%;
+	font-family: inherit;
+	line-height: 1.6em;
+	text-decoration: none;
+	outline-style: none;
+	color: #4c5d77;
+	background: -moz-linear-gradient(100% 100% 90deg, #cfdfee, #f9fbfc);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9fbfc), to(#cfdfee));
+    background: -ms-linear-gradient(top, #f9fbfc 0%,#cfdfee 100%);
+    background: -o-linear-gradient(top, #f9fbfc 0%,#cfdfee 100%);
+    background: linear-gradient(top, #f9fbfc, #cfdfee);
+    background-color: #f9fbfc;
+	border: 1px solid #0075B0;
+    cursor: pointer;
+	-webkit-border-radius: 5px; border-radius: 5px;	font-weight: normal;
+}
+
+#spMainContainer .spSearchForm input.spControl {
+    font-size: 0.8em;
+}
+
+#spMainContainer .spSubmit:hover {
+	border: 1px solid #cccccc;
+	font-weight: normal;
+}
+
+#spMainContainer .spControl:hover {
+	border: 1px solid #cccccc;
+	background: #e8eef8;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset, 0 0 3px #cccccc;
+
+}
+
+#spMainContainer .spControl:focus {
+	background: #e8eef8;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset, 0 0 3px #cccccc;
+}
+
+
+#spMainContainer .spButton[disabled],
+#spMainContainer .spSubmit[disabled],
+#spMainContainer .spControl[disabled] {
+    background: #f0f0f0 !important;
+    color: #cccccc;
+    border: 1px solid #cccccc;
+}
+
+#spMainContainer .spButton:hover[disabled],
+#spMainContainer .spSubmit:hover[disabled],
+#spMainContainer .spControl:hover[disabled] {
+	background: #e0e0f0;
+    color: #aaaaaa;
+    border: 1px solid #aaaaaa;
+}
+
+#spMainContainer fieldset {
+	border: 1px solid #dde8ee;
+	background: #f6f8f9;
+	color: #4c5d77;
+	padding: 10px;
+	margin: 10px;
+}
+
+#spMainContainer fieldset legend {
+	text-align: left;
+    padding: 0 5px;
+	font-weight: bold;
+}
+
+#spMainContainer .spUsergroupSelect select {
+    font-size: 80%;
+    vertical-align: top;
+}
+
+/* Checkbox/Radio Buttons
+----------------------------------*/
+
+#spMainContainer label.checkbox span.holder,
+#spMainContainer label.radio span.holder {
+	height:61px;
+	background: transparent url("images/onoff.png") 0 -3px no-repeat;
+}
+
+#spMainContainer label.checked span.holder {
+	top: -42px !important;
+}
+
+#spMainContainer label.list {
+	clear: both;
+	float: left;
+	background: transparent;
+	width: 100%;
+    font-size: 1em;
+	color: #4c5d77;
+}
+
+#spMainContainer label.inline {
+	float: left;
+	margin:0 10px 0 0;
+}
+
+#spMainContainer input.hiddenCheckbox {
+	position: absolute;
+	left: -10000px;
+}
+
+#spMainContainer label.prettyCheckbox span.holderWrap {
+	display: block;
+	float: left;
+	position: relative;
+	margin-right: 12px;
+	overflow: hidden;
+}
+
+#spMainContainer label.prettyCheckbox span.holder {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+}
+
+#spMainContainer .spProfileForm label.list,
+#spMainContainer .spProfileForm label.prettyCheckbox span.holderWrap {
+	float: left;
+	margin-top: 1px;
+    padding-top: 2px
+}
+
+/* Tooltips
+----------------------------------*/
+p#vtip {
+	display: none;
+	color: #4c5d77;
+	font-family: inherit;
+	position: absolute;
+	padding: 10px;
+	left: 5px;
+    font-size: 12px;
+	line-height: 1.2em;
+	background: #dce7ee;
+	border: 1px solid #dddddd;
+	-webkit-border-radius: 9px;
+    border-radius: 9px;
+    z-index: 999999;
+}
+
+p#vtip a {
+	color: #4c5d77;
+}
+
+/* UI Dialog
+----------------------------------*/
+.ui-dialog {
+	position: fixed !important;
+	padding: .2em;
+	width: 300px;
+	background: #eff3f8;
+	border: 1px solid #dddddd;
+	color: #4c5d77;
+	-webkit-border-radius: 9px; border-radius: 9px;	font-family: inherit;
+    z-index: 10;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+	padding: .2em 1em .2em;
+	position: relative;
+	-webkit-border-radius: 5px; border-radius: 5px;}
+
+.ui-dialog .ui-dialog-title {
+	float: left;
+	margin: .1em 16px 0 0;
+	line-height: 18px;
+	font-size: 16px;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+	position: absolute;
+	right: 12px;
+	top: 17px;
+	width: 18px;
+	margin: -10px 0 0 0;
+	padding: 0;
+	height: 18px;
+	background-image: url("images/close.gif") !important;
+}
+
+.ui-dialog .ui-dialog-titlebar-close:before {
+	content: " ";
+}
+
+.ui-dialog .ui-dialog-titlebar-close span {
+	display: block;
+	margin: 1px;
+}
+
+.ui-dialog .ui-dialog-titlebar-close:hover,
+#spMainContainer .ui-dialog .ui-dialog-titlebar-close:focus {
+	padding: 0;
+}
+
+.ui-dialog-content a {
+    color: #225599;
+    text-decoration: none;
+}
+
+.ui-dialog-content a:hover {
+    color: #dd2222;
+}
+
+.ui-dialog .ui-dialog-content,
+.ui-dialog .ui-dialog-content p {
+	border: 0;
+	padding: 2px !important;
+	background: inherit;
+	overflow: auto;
+	zoom: 1;
+    margin: 0;
+    clear: both;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+	text-align: left;
+	border-width: 1px 0 0 0;
+	background: inherit;
+	margin: .5em 0 0 0;
+	padding: .3em 1em .5em .4em;
+}
+
+.ui-dialog .ui-dialog-buttonpane button {
+	float: right;
+	margin: .5em .4em .5em 0;
+	cursor: pointer;
+	padding: .2em .6em .3em .6em;
+	line-height: 1.4em;
+	width: auto;
+	overflow: visible;
+}
+
+.ui-dialog .ui-resizable-se {
+	width: 11px;
+	height: 11px;
+	right: 3px !important;
+	bottom: 3px;
+	float: right;
+	background-image: url("images/resize.gif");
+}
+
+.ui-draggable .ui-dialog-titlebar {
+	cursor: move;
+}
+
+.ui-widget-header {
+	background: #dce7ee;
+	color: #4c5d77;
+	border: 1px solid #dddddd;
+    height: 26px;
+}
+
+.ui-widget-overlay {
+	background: #666666 url("images/sp_ImageOverlay.png") 50% 50% repeat !important;
+	opacity: .50 !important;
+	filter: Alpha(Opacity=50) !important;
+    z-index: 10 !important;
+}
+
+.ui-dialog .ui-dialog-content img.spPopupImg {
+    width: 100%;
+    height: 100%;
+}
+
+/* ---------------------
+Success/Failure Messages
+------------------------*/
+#spMainContainer .spMessageSuccess,
+#spMainContainer .spMessageFailure,
+.spMessageSuccess,
+.spMessageFailure {
+	display: none;
+	z-index: 9999999;
+	margin: 1em;
+	font-family: inherit;
+	font-weight: bold;
+    font-size: 90%;
+	vertical-align: middle;
+	padding: 10px 20px;
+	height: auto;
+	width: auto;
+	position: fixed;
+	top: 20px;
+    text-align: center;
+	-webkit-border-radius: 9px; border-radius: 9px;}
+
+#spMainContainer .spMessageSuccess,
+.spMessageSuccess {
+	border: 1px solid #888888;
+	background: #c6f5c7;
+	color: #4c5d77;
+}
+
+#spMainContainer .spMessageFailure,
+.spMessageFailure {
+	border: 1px solid #888888;
+	background: #f7a3a3;
+	color: #4c5d77;
+}
+
+#spMainContainer .spMessageSuccess img,
+#spMainContainer .spMessageFailure img,
+.spMessageSuccess img,
+.spMessageFailure img {
+	vertical-align: middle !important;
+	padding: 2px 10px 2px 5px !important;
+}
+
+#spMainContainer #spPostNotifications {
+	display: none;
+	font-family: inherit;
+	font-weight: bold;
+    font-size: 90%;
+	border: 1px solid #888888;
+	background: #f7a3a3;
+	color: #4c5d77;
+	vertical-align: middle;
+	padding: 2px 4px;
+	height: auto;
+	width: auto;
+	-webkit-border-radius: 5px; border-radius: 5px;}
+
+/* ---------------------
+Profile Tabs
+------------------------*/
+#spMainContainer ul#spProfileTabs {
+	margin: 0;
+	padding: 0 0 1px 5px;
+	height: 23px;
+}
+
+#spMainContainer ul#spProfileTabs li {
+	float: left;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#spMainContainer ul#spProfileTabs a {
+	float: left;
+    font-size: 0.8em;
+	display: block;
+	padding: 4px 5px;
+	text-decoration: none;
+	border: 1px solid #0075B0;
+	background: -moz-linear-gradient(100% 100% 90deg, #cfdfee, #f9fbfc);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9fbfc), to(#cfdfee));
+    background: -ms-linear-gradient(top, #f9fbfc 0%,#cfdfee 100%);
+    background: -o-linear-gradient(top, #f9fbfc 0%,#cfdfee 100%);
+    background: linear-gradient(top, #f9fbfc, #cfdfee);
+    background-color: #f9fbfc;
+	color: #4C5D77;
+	margin-right: 2px;
+	position: relative;
+	outline: 0;
+	-webkit-border-radius: 5px 5px 0 0;border-radius: 5px 5px 0 0;}
+
+#spMainContainer ul#spProfileTabs a:hover {
+	background: #f9f9f9;
+	color: #000000;
+}
+
+#spMainContainer ul#spProfileTabs a.current {
+	background: #dce7ee;
+	border: 1px solid #0075B0;
+	color: #4C5D77;
+}
+
+/* ---------------------
+Profile Content
+------------------------*/
+#spMainContainer #spProfileContent {
+	color: #4c5d77;
+	border: 1px solid #0075B0;
+	padding: 5px 10px;
+	background: #eff3f8;
+	-webkit-border-radius: 5px; border-radius: 5px;}
+
+/* ---------------------
+Profile Header
+------------------------*/
+#spMainContainer #spProfileHeader {
+	padding-left: 20%;
+    font-size: 1.2em;
+	margin: 10px;
+	float: left;
+}
+
+/* ---------------------
+Profile Menu
+------------------------*/
+#spMainContainer #spProfileMenu {
+	float: left;
+	padding: 15px 0 0 0;
+	margin: 0;
+	width: 20%;
+	clear: both;
+}
+
+#spMainContainer ul.spProfileMenuGroup {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#spMainContainer li.spProfileMenuItem {
+	width: 100%;
+	background:-moz-linear-gradient(100% 100% 90deg, #cfdfee, #f9fbfc);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9fbfc), to(#cfdfee));
+    background: -ms-linear-gradient(top, #f9fbfc 0%,#cfdfee 100%);
+    background: -o-linear-gradient(top, #f9fbfc 0%,#cfdfee 100%);
+    background: linear-gradient(top, #f9fbfc, #cfdfee);
+    background-color: #f9fbfc;
+    font-size: 0.9em;
+	margin: 5px 0;
+	padding: 5px 0;
+	-webkit-border-radius: 5px; border-radius: 5px;
+    list-style: none;
+}
+
+#spMainContainer li.spProfileMenuItem.current {
+	background: #f9f9f9;
+	color: #000000;
+}
+
+#spMainContainer li.spProfileMenuItem:hover {
+	background: #f9f9f9;
+}
+
+#spMainContainer li.spProfileMenuItem a {
+	padding: 5px;
+	margin: 1px 0;
+}
+
+/* ---------------------
+Profile Form Panel
+------------------------*/
+#spMainContainer #spProfileData {
+	float: left;
+	margin: 1px 0 0 0;
+	padding: 0;
+	background: #f9f9f9;
+	width: 80%;
+	-webkit-border-radius: 9px; border-radius: 9px;}
+
+#spMainContainer #spProfileFormPanel {
+	padding: 10px;
+    font-size: 0.9em;
+}
+
+/* ---------------------
+Profile Form
+------------------------*/
+#spMainContainer .spProfileFormSubmit {
+	clear: both;
+	padding-top: 15px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* ---------------------
+Profile Elements
+------------------------*/
+
+#spMainContainer p.spProfileLabel {
+	margin: 5px 0 0 0;
+	padding: 0;
+	line-height: 1.6em;
+}
+
+#spMainContainer span.spProfileRadioLabel {
+	line-height: 22px;
+}
+
+#spMainContainer .spProfileForm textarea {
+	width: 90%;
+    resize: vertical;
+}
+
+#spMainContainer .spProfileForm input {
+	width: 90%;
+	vertical-align: top;
+}
+
+#spMainContainer .spProfileForm input.spSubmit {
+	width: auto;
+}
+
+#spMainContainer .spProfileForm input#spAvatarInput{
+	width: 100%;
+}
+
+#spMainContainer .spProfileUsergroupsMemberships,
+#spMainContainer .spProfileUsergroupsNonMemberships {
+	color: #4c5d77;
+	background: #dce7ee;
+	border: 1px solid #dddddd;
+	padding: 5px;
+	-webkit-border-radius: 5px; border-radius: 5px;	margin-top: 20px;
+}
+
+#spMainContainer .spProfileUsergroupsNonMemberships {
+	margin-top: 30px;
+}
+
+#spMainContainer .spProfileUsergroup {
+	margin: 10px 0;
+	padding: 5px;
+	color: #4c5d77;
+	background: #eff3f8;
+	border: 1px solid #dddddd;
+	-webkit-border-radius: 5px; border-radius: 5px;}
+
+#spMainContainer .spProfileUsergroup:hover {
+	color: #4c5d77;
+	background: #eff3f8;
+	border: 1px solid #dddddd;
+}
+
+#spMainContainer .spProfileUsergroup.spOdd {
+	margin: 10px 0;
+	padding: 5px;
+	color: #4c5d77;
+	background: #eff3f8;
+	border: 1px solid #dddddd;
+	-webkit-border-radius: 5px; border-radius: 5px;}
+
+#spMainContainer .spProfileUsergroup.spOdd:hover {
+	color: #4c5d77;
+	background: #eff3f8;
+	border: 1px solid #dddddd;
+}
+
+#spMainContainer .spProfileUsergroup.spEven {
+	margin: 10px 0;
+	padding: 5px;
+	color: #4c5d77;
+	background: #f9f9f9;
+	border: 1px solid #dddddd;
+	-webkit-border-radius: 5px; border-radius: 5px;}
+
+#spMainContainer .spProfileUsergroup.spEven:hover {
+	color: #4c5d77;
+	background: #f9f9f9;
+	border: 1px solid #dddddd;
+}
+
+#spMainContainer .spProfileUsergroup .spColumnSection {
+	float: left;
+	width: 70%;
+}
+
+#spMainContainer .spProfileUsergroup .spProfileMembershipsLeave,
+#spMainContainer .spProfileUsergroup .spProfileMembershipsJoin {
+	padding-top: 20px;
+	float: right;
+	width: 30%;
+}
+
+#spMainContainer .spProfileMembershipsLeave .spInRowLabel,
+#spMainContainer .spProfileMembershipsJoin .spInRowLabel {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#spMainContainer .spProfileSpacerCol {
+	float: left;
+	text-align: left;
+	width: 5%;
+}
+
+#spMainContainer .spProfileRightCol {
+	float: left;
+	text-align: left;
+	width: 60%;
+}
+
+#spMainContainer .spProfileLeftCol {
+	clear: both;
+	float: left;
+	text-align: right;
+	width: 35%;
+}
+
+#spMainContainer .spProfileRightHalf {
+	float: left;
+	text-align: left;
+	width: 47%;
+}
+
+#spMainContainer .spProfileLeftHalf {
+	float: left;
+	text-align: left;
+	width: 47%;
+}
+
+#spMainContainer .spProfileOverview .spButton {
+	float: left;
+}
+
+#spMainContainer .spProfileUserPermissions .spProfilePermission {
+	background: #FEFEFE;
+	color: #333333;
+	border-left: 2px solid #DDDDDD;
+	border-right: 2px solid #DDDDDD;
+}
+
+#spMainContainer .spProfileUserPermissions .spColumnSection.spProfilePermissionIcon {
+    width: 9%;
+    float: left;
+}
+
+#spMainContainer .spProfileUserPermissions .spColumnSection.spProfilePermissionForum {
+    width: 75%;
+    float: left;
+}
+
+#spMainContainer .spProfileUserPermissions .spColumnSection.spProfilePermissionButton {
+    width: 15%;
+    float: right;
+}
+
+#spMainContainer .spProfileUserPermissions .spProfilePermission .spAuthCat {
+    clear: both;
+    font-weight: bold;
+    padding: 10px 0 5px 10px;
+    text-decoration: underline;
+}
+
+#spMainContainer .spProfileUserPermissions .spProfilePermission .spColumnSection {
+    width: 45%;
+    float: left;
+    padding-left:10px;
+    font-size: 0.9em;
+    height: auto;
+}
+
+#spMainContainer .spProfileUserPermissions .spProfilePermission p {
+    clear: both;
+    text-align: center;
+}
+
+/* ---------------------
+Editor Elements
+------------------------*/
+
+#spMainContainer .spEditor table,
+#spMainContainer .spEditor tr,
+#spMainContainer .spEditor td {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	line-height: 1em;
+	width: auto;
+	border: 0;
+}
+
+#spMainContainer .spProfileAccount #pass-strength-result {
+    background-color: #EEEEEE;
+    border: 1px solid #DDDDDD;
+    margin: 13px 5px 5px 1px;
+    padding: 3px 5px;
+    text-align: center;
+    width: 200px;
+}
+
+#spMainContainer .spProfileAccount #pass-strength-result.short {
+    background-color: #FFA0A0;
+    border-color: #F04040;
+}
+
+#spMainContainer .spProfileAccount #pass-strength-result.bad {
+    background-color: #FFB78C;
+    border-color: #FF853C;
+}
+
+#spMainContainer .spProfileAccount #pass-strength-result.good {
+    background-color: #FFEC8B;
+    border-color: #FFCC00;
+}
+
+#spMainContainer .spProfileAccount #pass-strength-result.strong {
+    background-color: #C3FF88;
+    border-color: #8DFF1C;
+}
+
+#spMainContainer .spProfileAccount .indicator-hint {
+    font-size: 90%;
+    padding-top: 5px;
+}
+
+/* ---------------------
+Admin Tools Icon
+------------------------*/
+
+#spMainContainer a.spToolsButton {
+	width: auto;
+	height: 21px;
+	text-align: center;
+	line-height: 1.6em;
+	padding: 2px;
+	margin: 2px 0 0 5px;
+    font-size: 80%;
+	font-family: inherit;
+	outline-style: none;
+	color: #4c5d77;
+	background: -moz-linear-gradient(100% 100% 90deg, #cfdfee, #f9fbfc);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9fbfc), to(#cfdfee));
+    background: -ms-linear-gradient(top, #f9fbfc 0%,#cfdfee 100%);
+    background: -o-linear-gradient(top, #f9fbfc 0%,#cfdfee 100%);
+    background: linear-gradient(top, #f9fbfc, #cfdfee);
+    background-color: #f9fbfc;
+	border: 1px solid #0075B0;
+	-webkit-border-radius: 5px; border-radius: 5px;	position: absolute;
+	cursor: pointer;
+}
+
+#spMainContainer .spToolsButton img {
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+}
+
+#spMainContainer a.spToolsButton:hover {
+	background: -moz-linear-gradient(100% 100% 90deg, #cfdfee, #f9fbfc);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9fbfc), to(#cfdfee));
+    background: -ms-linear-gradient(top, #f9fbfc 0%,#cfdfee 100%);
+    background: -o-linear-gradient(top, #f9fbfc 0%,#cfdfee 100%);
+    background: linear-gradient(top, #f9fbfc, #cfdfee);
+    background-color: #f9fbfc;
+	border: 1px solid #cccccc;
+}
+/* Quicklinks
+----------------------------------*/
+
+#spMainContainer #spQuickLinksTopic,
+#spMainContainer #spQuickLinksForum {
+	display: none;
+	height: 25px;
+	width: 230px;
+	border: 1px solid #0075b0;
+	background: #f2f3f3;
+	color: #4C5D77;
+	font-family: inherit;
+    font-size: 80%;
+	line-height: 1.6em;
+	padding: 0 5px;
+	margin: 0;
+	-webkit-border-radius: 5px; border-radius: 5px;	text-decoration: none;
+	text-align:left;
+    position: relative;
+}
+
+#spMainContainer #spQuickLinksTopic:hover,
+#spMainContainer #spQuickLinksForum:hover {
+	border: 1px solid #cccccc;
+	background: #e8eef8;
+}
+
+#spMainContainer #spQuickLinksTopic .dd .ddTitle,
+#spMainContainer #spQuickLinksForum .dd .ddTitle {
+	padding:3px;
+	margin-top: 2px;
+	text-indent:0;
+	cursor:default;
+	overflow:hidden;
+}
+
+#spMainContainer #spQuickLinksTopic .dd .ddTitle span.arrow,
+#spMainContainer #spQuickLinksForum .dd .ddTitle span.arrow {
+	background: url("images/dd_arrow.gif") no-repeat 0 0;
+	float:right;
+	display:inline-block;
+	width:16px;
+	height:16px;
+	cursor:pointer;
+    position: inherit;
+}
+
+#spMainContainer #spQuickLinksTopic .dd .ddChild,
+#spMainContainer #spQuickLinksForum .dd .ddChild {
+	position:absolute;
+	display:none;
+	height: auto !important;
+	width:	300px;
+	overflow:auto;
+	overflow-x:hidden !important;
+	border: 1px solid #dddddd;
+	background: #f0f4f7;
+	color: #4c5d77;
+	padding: 10px;
+	margin: 0 10px;
+	z-index: 100 !important;
+}
+
+#spMainContainer #spQuickLinksTopic .dd .ddChild .opta,
+#spMainContainer #spQuickLinksForum .dd .ddChild .opta {
+	border-top: 1px solid #dddddd;
+	padding-top: 4px;
+	margin-top: 3px;
+}
+
+#spMainContainer #spQuickLinksTopic .dd .ddChild .opta a,
+#spMainContainer #spQuickLinksForum .dd .ddChild .opta a,
+#spMainContainer #spQuickLinksTopic .dd .ddChild .opta a:visited,
+#spMainContainer #spQuickLinksForum .dd .ddChild .opta a:visited {
+	padding-left:10px
+}
+
+#spMainContainer #spQuickLinksTopic .dd .ddChild a,
+#spMainContainer #spQuickLinksForum .dd .ddChild a {
+	display:block;
+	padding:2px 0 2px 3px;
+	text-decoration:none;
+	color: #000000;
+	overflow:hidden;
+	white-space:nowrap;
+	cursor:pointer;
+}
+
+#spMainContainer #spQuickLinksForum .dd .ddChild a {
+	margin-left: 16px;
+}
+
+#spMainContainer #spQuickLinksTopic .dd .ddChild a:hover,
+#spMainContainer #spQuickLinksForum .dd .ddChild a:hover {
+	background: #dce7ee;
+	color: #4C5D77;
+}
+
+#spMainContainer #spQuickLinksTopic .dd .ddChild a img {
+	border:0;
+	padding:0 2px 0 0;
+	vertical-align:middle;
+}
+
+#spMainContainer #spQuickLinksTopic .dd .ddChild a.selected,
+#spMainContainer #spQuickLinksForum .dd .ddChild a.selected {
+	background: #dce7ee;
+	color: #4C5D77;
+}
+
+#spMainContainer #spQuickLinksTopic .dd .ddChild .ddTopTitle,
+#spMainContainer #spQuickLinksForum .dd .ddChild .ddTopTitle {
+	color: #000000;
+	background: #dce7ee;
+	border: 1px solid #dddddd;
+	margin-left: 0;
+}
+
+#spMainContainer #spQuickLinksTopic .dd .ddChild .spPostNew {
+	color: #488ccc !important;
+}
+
+#spMainContainer #spQuickLinksTopic .dd .ddChild .spPostMod {
+	color: #f26565 !important;
+}
+/* Center Forum Page Title Graphic Replacement
+----------------------------------*/
+img#sfbanner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* core autocomplete styles
+----------------------------------*/
+.ui-autocomplete {
+	position: absolute;
+	cursor: default;
+	background: #ffffff;
+	border: 1px solid #DDE8EE;
+	color: #4C5D77;
+}
+
+.ui-front.ui-autocomplete {
+    z-index: 101;
+}
+
+* html .ui-autocomplete {
+	width: 1px;
+}
+
+.ui-menu {
+	list-style: none;
+	padding: 2px;
+	margin: 0;
+	display: block;
+	float: left;
+}
+
+.ui-menu .ui-menu {
+	margin-top: -3px;
+}
+
+.ui-menu .ui-menu-item {
+	margin: 0;
+	padding: 0;
+	zoom: 1;
+	float: left;
+	clear: left;
+	width: 100%;
+}
+
+.ui-menu .ui-menu-item a {
+	text-decoration: none;
+	display: block;
+	padding: .1em .4em;
+	line-height: 1.0;
+	zoom: 1;
+	color: #4C5D77;
+}
+
+.ui-menu .ui-menu-item a:hover,
+.ui-menu .ui-menu-item a:active {
+	background: #DCE7EE;
+}
+
+.ui-helper-hidden-accessible {
+    display: none;
+}
+
+/* wp media embeds */
+
+#spMainContainer .mejs-container {
+    background: #464646;
+    vertical-align: top;
+    font-family: Helvetica,Arial;
+}
+
+#spMainContainer .mejs-container * {
+    float: left;
+    font-size: 11px;
+}
+
+#spMainContainer .mejs-controls .mejs-time {
+    padding: 8px 3px 0;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
+#spMainContainer .mejs-controls .mejs-time-rail {
+    padding-top: 5px;
+}
+
+#spMainContainer .mejs-controls .mejs-time-rail span {
+    border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+}
+
+#spMainContainer .mejs-controls .mejs-time-rail .mejs-time-loaded {
+    background: #21759B;
+}
+
+#spMainContainer .mejs-controls .mejs-time-rail .mejs-time-current {
+    background: #D54E21;
+}
+
+#spMainContainer .mejs-controls .mejs-time-rail .mejs-time-total {
+    margin: 5px;
+}
+
+#spMainContainer .mejs-controls .mejs-time-rail .mejs-time-handle {
+    background: #ffffff;
+    border: 2px solid #333333;
+}
+
+#spMainContainer .mejs-controls .mejs-time-rail .mejs-time-float {
+    background: #eeeeee;
+    border: 1px solid #333333;
+    margin-left: -18px;
+}
+
+#spMainContainer .mejs-controls .mejs-time-rail .mejs-time-float-current {
+    margin: 2px;
+}
+
+#spMainContainer .mejs-controls .mejs-time-rail .mejs-time-float-corner {
+	line-height: 0;
+	border: solid 5px #eee;
+	border-color: #eee transparent transparent transparent;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+#spMainContainer .mejs-controls .mejs-volume-button .mejs-volume-slider {
+    background: rgba(50, 50, 50, 0.7);
+}
+
+#spMainContainer .mejs-controls .mejs-volume-button .mejs-volume-total {
+	background: #ddd;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#spMainContainer .mejs-controls .mejs-volume-button .mejs-volume-current {
+	background: #ddd;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+#spMainContainer .mejs-controls .mejs-volume-button .mejs-volume-handle {
+	background: #ddd;
+    background: rgba(255, 255, 255, 0.9);
+}

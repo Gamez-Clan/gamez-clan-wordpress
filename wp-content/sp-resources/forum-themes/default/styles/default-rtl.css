@@ -1,0 +1,411 @@
+# --------------------------------------------------------------------------------------
+#
+#	Simple:Press Template CSS
+#	Theme		:	Default
+#	Author		:	Simple:Press
+#
+#	This is the Right-To-Left CSS Display file for the SP Default theme.
+#
+#   ***********************************************************************************
+#   WARNING: It is highly recommended that you do NOT edit this theme's files.  Since
+#   it's one of the default themes supplied with Simple:Press, if you later update the
+#   theme any changes you have made will be lost.  You should instead make a copy of the
+#   theme to create your own theme and then make your edits and customizations there.
+#   ***********************************************************************************
+#
+# --------------------------------------------------------------------------------------
+
+# if available, load the selected color overlay stylesheet
+
+#spMainContainer .spClearRight {
+	clear: left;
+}
+
+#spMainContainer .spClearLeft {
+	clear: right;
+}
+
+#spMainContainer .spLeft {
+	float: right;
+}
+
+#spMainContainer .spRight {
+	float: left;
+}
+
+#spMainContainer .spTextRight {
+	text-align: left;
+}
+
+#spMainContainer .spTextLeft {
+	text-align: right;
+}
+
+#spMainContainer .spTopicPostSection .spPostUserAvatar {
+	width: 100%;
+}
+
+#spMainContainer .spTopicPostSection .spPostUserAvatar img {
+	margin: auto;
+	margin-left: 4px;
+	}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent .sfimageright {
+	float: left;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent .sfimageleft {
+	float: right;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent .sfmouseright {
+	float: left;
+}
+
+#spMainContainer .spTopicPostSection .spPostSection .spPostContentSection .spPostContent .sfmouseleft {
+	float: right;
+}
+
+#spMainContainer #spPostForm .spEditorSectionLeft {
+	float: right;
+}
+
+#spMainContainer #spPostForm .spEditorSectionRight {
+	float: left;
+}
+
+#spMainContainer .spInRowPageLinks img.spIconSmall {
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+}
+
+#spMainContainer a.spButton img {
+	margin: 0 0px 2px 3px;
+}
+
+#spMainContainer #spAck img.spIcon,
+#spMainContainer #spBreadCrumbs img.spIcon {
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+}
+
+#spMainContainer .spRowIcon {
+	margin: 5px 5px 5px 2px;
+}
+
+#spMainContainer .spHeaderDescription {
+	padding: 0 10px 10px;
+}
+
+#spMainContainer .spHeaderIcon {
+    margin: 5px 10px 5px 5px;
+}
+
+#spMainContainer a.spRowName {
+    margin: 2px 0px 2px 0px;
+}
+
+#spMainContainer .spPageLinks a.spPageLinks {
+	float: right;
+}
+
+#spMainContainer .spPageLinks {
+	float: right;
+}
+
+#spMainContainer .spPageLinks img.spIcon {
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	
+}
+
+#spMainContainer .spForumTimeZone {
+	text-align: left;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#spMainContainer .spUserTimeZone span{
+	float: right;
+}
+
+#spMainContainer .spUserTimeZone span{
+	margin-right:auto;
+}
+
+#spMainContainer .spUserTimeZone {
+	text-align: right;
+}
+
+#spMainContainer .spForumStatsTitle,
+#spMainContainer .spMembershipStatsTitle,
+#spMainContainer .spTopPosterStatsTitle,
+#spMainContainer .spMostOnline span,
+#spMainContainer .spCurrentBrowsing span,
+#spMainContainer .spNewMembersTitle {
+	padding: 0 0 0 5px;
+	float: right;
+}
+
+#spMainContainer .spCurrentOnline span {
+	float: right;
+}
+
+#spMainContainer span.spModeratorsTitle,
+#spMainContainer span.spAdministratorsTitle,
+#spMainContainer span.spUserGroupListTitle {
+	padding: 0 0 0 5px;
+	float: right;
+}
+
+#spMainContainer .spOnlineStats p,
+#spMainContainer .spForumStats p,
+#spMainContainer .spMembershipStats p,
+#spMainContainer .spTopPosterStats p,
+#spMainContainer .spNewMembers p,
+#spMainContainer .spModerators p,
+#spMainContainer .spAdministrators p
+#spMainContainer .spUserGroupList p {
+	width: 100%;
+	float: right;
+}
+
+#spMainContainer a.spProfilePopupLink.spLink,
+#spMainContainer a.spWebLink.spLink,
+#spMainContainer a.spProfilePage.spLink,
+#spMainContainer a.spBPProfile.spLink,
+#spMainContainer a.spWPProfile.spLink,
+#spMainContainer a.spUserDefinedProfile.spLink {
+	float: right;
+}
+
+#spMainContainer .spTopicPostSection .spUserSection a.spProfilePopupLink.spLink {
+	float: none;
+}
+
+#spMainContainer .spColumnSection a.spProfilePopupLink {
+	float: none;
+}
+
+#spMainContainer #spLoginForm form.spForm {
+    text-align: right;
+}
+
+#spMainContainer .spSearchSection {
+	float: right;
+}
+
+#spMainContainer .spSearchMember .spSearchSection,
+#spMainContainer .spSearchTopicStatus .spSearchSection {
+	text-align: right;
+}
+
+#spMainContainer .spSearchSection .spRadioSection {
+	text-align: right;
+}
+
+#spMainContainer p.spSearchDetails {
+	text-align: right;
+}
+
+#spMainContainer fieldset legend {
+	text-align: right;
+}
+
+#spMainContainer label.list {
+	float: right;
+}
+
+#spMainContainer label.inline {
+	float: right;
+}
+
+#spMainContainer input.hiddenCheckbox {
+	right: -10000px;
+}
+
+#spMainContainer #spHiddenTimestamp {
+	float: right;
+}
+
+#spMainContainer #spHiddenTimestamp select.spControl {
+    margin-right: 60px;
+	margin-left: 5px;
+}
+
+#spMainContainer label.prettyCheckbox span.holderWrap {
+	float: right;
+	margin-left: 12px;
+}
+
+#spMainContainer .spProfileForm label.list,
+#spMainContainer .spProfileForm label.prettyCheckbox span.holderWrap {
+	float: right;
+}
+
+.ui-dialog .ui-dialog-title {
+	float: right;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+	text-align: right;
+}
+
+.ui-dialog .ui-dialog-buttonpane button {
+	float: left;
+}
+
+.ui-dialog .ui-resizable-se {
+	float: left;
+}
+
+#spMainContainer ul#spProfileTabs li {
+	float: right;
+}
+
+#spMainContainer ul#spProfileTabs a {
+	float: right;
+}
+
+#spMainContainer #spProfileHeader {
+	float: right;
+}
+
+#spMainContainer #spProfileMenu {
+	float: right;
+}
+
+
+#spMainContainer #spProfileData {
+	float: right;
+}
+
+#spMainContainer #spProfileFormPanel a.spProfilePopupLink {
+	float: right;
+}
+
+#spMainContainer .spProfileRightCol p.spProfileLabel {
+	float: right;
+	width: 100%;
+}
+
+#spMainContainer .spProfileLeftCol p.spProfileLabel {
+	float: left;
+}
+
+
+#spMainContainer .spProfileUsergroup .spColumnSection {
+	float: right;
+}
+
+#spMainContainer .spProfileUsergroup .spProfileMembershipsLeave,
+#spMainContainer .spProfileUsergroup .spProfileMembershipsJoin {
+	float: left;
+}
+
+#spMainContainer .spProfileSpacerCol {
+	float: right;
+	text-align: right;
+}
+
+#spMainContainer .spProfileRightCol {
+	float: right;
+	text-align: right;
+}
+
+#spMainContainer .spProfileLeftCol {
+	float: right;
+	text-align: left;
+}
+
+#spMainContainer .spProfileRightHalf {
+	float: right;
+	text-align: right;
+}
+
+#spMainContainer .spProfileLeftHalf {
+	float: right;
+	text-align: right;
+}
+
+#spMainContainer .spProfileOverview .spButton {
+	float: right;
+}
+
+#spMainContainer .spProfileUserPermissions .spColumnSection.spProfilePermissionIcon {
+    float: right;
+}
+
+#spMainContainer .spProfileUserPermissions .spColumnSection.spProfilePermissionForum {
+    float: right;
+}
+
+#spMainContainer .spProfileUserPermissions .spColumnSection.spProfilePermissionButton {
+    float: left;
+}
+
+#spMainContainer .spProfileUserPermissions .spProfilePermission .spColumnSection {
+    float: right;
+}
+
+#spMainContainer .spEditor table,
+#spMainContainer .spEditor tr,
+#spMainContainer .spEditor td {
+	text-align: right;
+}
+
+#spMainContainer #spQuickLinksTopic .dd .ddTitle span.arrow,
+#spMainContainer #spQuickLinksForum .dd .ddTitle span.arrow {
+	float: left;
+}
+
+.ui-menu {
+	float: right;
+}
+
+.ui-menu .ui-menu-item {
+	float: right;
+	clear: right;
+}
+
+#spMainContainer .mejs-container * {
+    float: right;
+}
+
+#spMainContainer  #spPostForm .spEditorSection fieldset {
+	float: right;
+}
+
+#spMainContainer .spInRowLabel a.spInRowLastPostLink img {
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+}
+
+#spMainContainer .spStatsSection .spColumnSection a.spProfilePopupLink {
+    float: right;
+}
+
+#spMainContainer .ShareThisForum {
+	float: left;
+}
+
+#spMainContainer #spBirthdays .spBirthdaysBody img {
+	float: right;
+}
+
+#spMainContainer #spBirthdays .spBirthdaysToday,
+#spMainContainer #spBirthdays .spBirthdaysUpcoming {
+	width: 3%;
+}
+
+#spMainContainer .spMemberGroupsSection {
+	margin-top: 40px;
+}
+
+
+
+
+
+
+
+

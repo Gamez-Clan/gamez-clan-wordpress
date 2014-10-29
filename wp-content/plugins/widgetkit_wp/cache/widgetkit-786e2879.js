@@ -1,0 +1,1 @@
+var widgetkitajax="http://sill-web.de/gzc/wp-admin/admin-ajax.php?action=widgetkit&ajax=1";

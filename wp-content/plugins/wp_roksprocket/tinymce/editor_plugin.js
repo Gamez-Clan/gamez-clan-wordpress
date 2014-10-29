@@ -1,0 +1,4 @@
+(function(){tinymce.PluginManager.requireLangPack("roksprocket");tinymce.create("tinymce.plugins.RokSprocketPlugin",{init:function(a,b){a.addCommand("mceRokSprocket",function(){a.windowManager.open({file:ajaxurl+"?action=roksprocket_tinymce&type=tinymce",width:450+a.getLang("roksprocket.delta_width",0),height:100+a.getLang("roksprocket.delta_height",0),inline:1},{plugin_url:b,some_custom_arg:""});
+});a.addButton("roksprocket",{title:"Insert RokSprocket Item",cmd:"mceRokSprocket",image:b+"/roksprocket_16x16.png"});a.onNodeChange.add(function(d,c,e){c.setActive("roksprocket",e.nodeName=="IMG");
+});},createControl:function(b,a){return null;},getInfo:function(){return{longname:"RokSprocket Plugin",author:"RocketTheme",authorurl:"http://rockettheme.com",infourl:"http://rockettheme.com",version:"1.0"};
+}});tinymce.PluginManager.add("roksprocket",tinymce.plugins.RokSprocketPlugin);})();

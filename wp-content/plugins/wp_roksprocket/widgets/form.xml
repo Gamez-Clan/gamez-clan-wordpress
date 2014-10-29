@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="roksprocket_widget" overwrite="false">
+        <field name="title" type="text" label="ROKSPROCKET_LABEL_TITLE" description="ROKSPROCKET_DESC_TITLE" default="" class="widefat"/>
+        <field name="module_id" type="widgetinstancepicker" label="ROKSPROCKET_LABEL_CHOOSE_WIDGET" description="ROKSPROCKET_DESC_CHOOSE_WIDGET" default="" class="rs-post-url-changer" fancy="false"/>
+    </fieldset>
+</form>

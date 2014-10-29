@@ -1,0 +1,250 @@
+.dwqa-container {
+	margin: 0;
+	font-family: inherit;
+	font-size: 13px;
+	background-color: transparent;
+	color: #222;
+	padding: 15px;
+	position: relative;
+	margin-bottom: 20px;
+	line-height: 20px;
+	webkit-box-sizing: border-box;
+	moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: rgba(255,255,255,.2);
+	border: 1px solid rgba(255,255,255,.2);
+}
+.dwqa-list-question .dwqa-meta {
+color: #BF2E2E;
+font-size: 12px;
+}
+.dwqa-list-question .sticky-questions .dwqa-sticky-question, .dwqa-list-question .sticky-questions .dwqa-sticky-question:hover {
+	background: #f2fae3 !important;
+	color: #659f13 !important;
+	border-color: rgba(101,159,19,.3) !important;
+	text-shadow: 0 0px 0 rgba(0,0,0,.0) !important;
+}
+.dwqa-search .dwqa-search-form .dwqa-search-input {
+	padding: 12px 6px 12px 18px;
+	box-shadow: 0 0 8px rgba(0,0,0,0.05) inset;
+	font-size: 20px;
+	background-color: #333;
+	height: 55px;
+	width: 100%;
+	color: #fff;
+	border: 0px solid #ccc;
+	outline: 0;
+	margin: 0;
+	webkit-box-sizing: border-box;
+	moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.dwqa-list-question .dwqa-question:hover {
+	background-color: #333;
+}
+.dwqa-list-question .dwqa-comment, .dwqa-list-question .dwqa-view, .dwqa-list-question .dwqa-vote {
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border: 0px solid #ddd;
+	float: left;
+	color: #fff;
+	margin-left: 14px;
+	font-size: 11px;
+	background-color: #BF2E2E;
+}
+.dwqa-list-question .dwqa-comment strong, .dwqa-list-question .dwqa-view strong, .dwqa-list-question .dwqa-vote strong {
+	display: block;
+	line-height: 20px;
+	margin-top: 5px;
+	font-size: 120%;
+	font-weight: 500;
+	color: #fff;
+}
+.dwqa-list-question .dwqa-question {
+position: relative;
+min-height: 90px;
+padding: 20px 220px 20px 0;
+margin: 0;
+border-top: 1px solid #e6e6e6;
+border-left: 0;
+border-right: 0;
+border-bottom: 0;
+webkit-box-sizing: border-box;
+moz-box-sizing: border-box;
+box-sizing: border-box;
+webkit-transition: all .25s ease-in-out;
+transition: all .25s ease-in-out;
+overflow: visible;
+width: auto;
+border: 1px solid rgba(0,0,2,0.8);
+background: #333;
+box-shadow: inset 0 1px 0 rgba(253,253,255,0.2), 0 1px 1px rgba(0,0,2,0.2);
+border-radius: 0px;
+background: #222;
+color: #777;
+}
+.dwqa-list-question .dwqa-header .dwqa-title {
+margin: 0;
+padding: 0;
+font-size: 15px;
+line-height: 1.3;
+font-weight: 700;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+color: #777;
+}
+body .dwqa-container a {
+color: #BF2E2E;
+text-decoration: none;
+-webkit-transition: all 0s;
+transition: all 0s;
+}
+.dwqa-list-question .filter-bar {
+	border: 0px solid #ddd;
+	border-bottom: 0;
+	position: relative;
+}
+.questions-list {
+	border: 0px solid #ddd;
+	border-top: none;
+}
+.dwqa-list-question .archive-question-footer {
+	padding: 15px 20px;
+	overflow: hidden;
+	border: 0px solid #ddd;
+	border-top: 0;
+}
+.dwqa-list-question .filter {
+	margin: 0;
+	padding: 15px 20px;
+	position: relative;
+	border-bottom: 0px solid #ddd;
+	background-color: #333;
+	clear: both;
+	webkit-box-sizing: border-box;
+	moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.dwqa-container .dwqa-btn-success:hover, .dwqa-container .dwqa-btn-success:focus, .dwqa-container .dwqa-btn-success:active, .dwqa-container .dwqa-btn-success.active, .open .dropdown-toggle.dwqa-container .dwqa-btn-success {
+opacity: 1;
+color: #fff;
+background-color: #BF2E2E;
+border-color: #BF2E2E;
+}
+
+.dwqa-single-question .dwqa-comment {
+padding-left: 70px;
+background: none;
+border: 0px solid rgba(255,255,255,.2);
+}
+.dwqa-container p, .dwqa-container .dwqa-comment-content {
+margin: 1em 0;
+background: rgba(255,255,255,.2);
+border: 1px solid rgba(255,255,255,.2);
+color: #222;
+padding: 10px;
+}
+
+.dwqa-single-question .dwqa-question .dwqa-content{
+	background: rgba(255,255,255,.2);
+	border: 1px solid rgba(255,255,255,.2);
+	color: #222;
+	padding: 10px;
+}
+
+.dwqa-single-question .dwqa-question .dwqa-meta {
+border-bottom: 0px solid #eee;
+padding: 10px 0;
+margin-bottom: 10px;
+}
+
+.dwqa-single-question .dwqa-headline {
+font-size: 18px;
+padding: 15px 0;
+margin: 0;
+border-top: 0px solid #e5e5e5;
+color: #BF2E2E;
+}
+
+.dwqa-single-question .dwqa-question .dwqa-author .avatar, .dwqa-single-question .dwqa-answer .dwqa-author .avatar {
+position: absolute;
+left: 0;
+top: 0;
+line-height: 64px;
+width: 64px;
+height: 64px;
+border-radius: 150px;
+}
+
+
+.dwqa-single-question .dwqa-question .dwqa-vote {
+position: absolute;
+left: -50px;
+top: -15px;
+color: #BF2E2E;
+}
+
+.dwqa-single-question .dwqa-vote a {
+text-indent: -9999px;
+position: relative;
+width: 30px;
+height: 20px;
+font-size: 11px;
+line-height: 40px;
+padding: 0;
+font-weight: 600;
+box-shadow: none;
+display: inline-block;
+color: #BF2E2E;
+text-align: center;
+text-shadow: none;
+cursor: pointer;
+border: 0;
+text-transform: uppercase;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+
+
+
+
+.dwqa-list-question .filter.sort-by {
+height: 60px;
+background: rgba(255,255,255,.2);
+border: 1px solid rgba(255,255,255,.2);}
+
+
+
+.search-results-suggest {
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+	webkit-box-sizing: border-box;
+	moz-box-sizing: border-box;
+	box-sizing: border-box;
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+.search-results-suggest span {
+padding: 10px 20px 350px 20px;
+display: block;
+color: #BF2E2E;
+}
+.dwqa-single-question .dwqa-stick-question.active i {
+	color: #BF2E2E;
+}
+.dwqa-widget li {
+	border-top: 1px solid rgba(0,0,0,.3);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.05);
+	text-shadow: 0 0px 0 rgba(0,0,0,.5);
+	color: #444;
+	border-bottom: 0px solid #e5e5e5;
+}

@@ -1,0 +1,120 @@
+body .calendar {
+	color: #666;
+	border: 0;
+	background: transparent;
+
+	table {
+		background: @white;
+		.border-radius(6px);
+		.box-shadow(0 5px 10px rgba(0, 0, 0, 0.2));
+		border: 1px solid #ccc;
+		width: 100%;
+
+		td.title {
+			font-size: @baseFontSize;
+		}
+
+		td.title, td.button {
+			color: #666;
+			#gradient > .vertical(#fff, #f4f4f4);
+
+			&.hilite {
+				#gradient > .vertical(#d5eeff, #8bd3ff);
+			}
+		}
+
+		thead {
+			tr:first-child {
+				.border-radius(6px 6px 0 0);
+
+				td:first-child {
+					.border-radius(6px 0 0 0);
+				}
+
+				td:last-child {
+					.border-radius(0 6px 0 0);
+				}
+			}
+
+			.headrow td {
+				#gradient > .vertical(#f4f4f4, #eee);
+			}
+
+			&.name {
+				border-bottom: 0;
+			}
+
+		}
+
+		tbody {
+			.rowhilite td {
+				background: #f1f1f1;
+				color: #666;
+				text-shadow: 0 1px 0 #fff;
+				&.hilite {
+					#gradient > .vertical(#d5eeff, #8bd3ff);
+				}
+				&.wn {
+					text-shadow: 0 1px 0 #fff;
+					background: #ccc;
+					color: #333;
+				}
+			}
+
+			.day {
+				text-align: center;
+				cursor: pointer;
+
+				&.wn {
+					.border-radius(0);
+				}
+
+				&.hilite {
+					.border-radius(3px);
+				}
+
+				&.selected, &.selected.hilite {
+					background: #5bb4e4;
+					#gradient > .vertical(#5bb4e4, #4f9cc6);
+					color: #fff;
+					text-shadow: 0 1px 0 #999;
+					border: 1px solid #39708d;
+					.border-radius(3px);
+				}
+			}
+		}
+
+		tfoot {
+			.border-radius(0 0 6px 6px);
+			tr:first-child {
+				.border-radius(0 0 6px 6px);
+
+				td {
+					.border-radius(0 0 6px 6px);
+				}
+			}
+
+			.ttip {
+				border-top: 1px solid #ddd;
+				text-shadow: 0 1px 0 #fff;
+			}
+
+			.footrow {
+				background: transparent;
+			}
+		}
+
+		.wn {
+			background: #eee;
+			border-right: #ddd;
+		}
+
+		td.hilite {
+			color: #5d7685;
+			text-shadow: 0 1px 0 #fff;
+			#gradient > .vertical(#d5eeff, #8bd3ff);
+			.box-shadow(0 0 2px rgba(0, 0, 0, 0.2) inset);
+			border: 0;
+		}
+	}
+}

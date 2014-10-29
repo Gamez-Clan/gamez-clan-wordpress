@@ -1,0 +1,18 @@
+<form>
+    <fieldset>
+   		<field name="id" type="hidden"
+   			label="Id"
+   			description="Id"
+   			default="0"
+   			readonly="true"
+   		/>
+        <field name="uuid" type="hidden" default="0"	readonly="true" />
+   		<field name="title" type="text"
+   			description="TITLE"
+   			label="Title"
+   			maxlength="100"
+   			required="true"
+   			size="35"
+   		/>
+    </fieldset>
+</form>

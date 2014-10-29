@@ -1,0 +1,18 @@
+table.em-calendar td.eventless-today, table.em-calendar td.eventful-today {
+background-color: #BF2E2E;
+color: #fff;
+border-radius: 50px;
+}
+table.em-calendar td.eventful a, table.em-calendar td.eventful-today a {
+color: #BF2E2E;
+}
+table.em-calendar thead {
+font-size: 120%;
+font-weight: normal;
+color: #BF2E2E;
+}
+.days-names{
+color: #BF2E2E;
+border-bottom: 1px solid #BF2E2E;
+border-top: 1px solid #BF2E2E;	
+}

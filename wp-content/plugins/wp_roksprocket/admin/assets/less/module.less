@@ -1,0 +1,185 @@
+// Layouts
+.single-layout {
+	display: inline-block;
+	font-size: 14px;
+	line-height: 14px;
+	color: #555;
+
+	i {
+		float: left;
+		margin-right: 5px;
+	}
+}
+
+.field-wrapper, .custom-field {
+	display: inline-block;
+}
+
+.input-prepend input, .input-append input {
+	width: 119px;
+}
+
+#tabs-container .panel.create-new {
+	text-align: center;
+
+	.description {
+		font-size: 18px;
+	}
+
+	h1, .description {
+		text-align: center;
+		color: #999;
+
+		span {
+			background: #999;
+			color: white;
+			border-radius: 30px;
+			display: inline-block;
+			width: 32px;
+			height: 32px;
+			line-height: 32px;
+			padding: 2px;
+		}
+
+		&.pick-layout, &.continue-new {
+			margin-top: 40px;
+		}
+	}
+
+	.btn-primary {
+		margin-top: 20px;
+	}
+
+	ul, .alert {
+		max-width: 700px;
+	}
+
+	.alert {
+		margin: 9px auto;
+		font-size: 120%;
+		visibility: hidden;
+	}
+
+	ul {
+		max-width: 700px;
+		margin: 40px auto 0;
+
+		i {
+			vertical-align: middle;
+			display: inline-block;
+		}
+
+		li {
+			position: relative;
+			cursor: pointer;
+			display: inline-block;
+			padding: 10px;
+			color: #777;
+			border-radius: 3px;
+			border: 1px solid #ccc;
+			font-size: 18px;
+			margin: 8px 6px;
+
+			&:hover {
+				color: #B84D35;
+				border-color: #F87770;
+				text-shadow: 0 0 8px rgba(236, 103, 82,0.3);
+			}
+
+			&.active {
+				color: #3576b8;
+				border-color: #70B3F8;
+				text-shadow: 0 0 8px rgba(82,168,236,0.6);
+				background: #E7EFF8;
+			}
+
+			&.asterisk:after {
+				position: absolute;
+				content: "*";
+				color: #cc0000;
+				font-size: 150%;
+				font-weight: bold;
+				vertical-align: middle;
+				top: 3px;
+				right: 1px;
+			}
+		}
+	}
+}
+
+.panel-right {
+	.input-prepend, .input-append {
+		margin-bottom: 0;
+	}
+
+	/*> ul > li {
+		display: none;
+	}*/
+
+	.dropdown-menu {
+		li {
+			&.right, .right, &.hide, .hide {
+				float: none !important;
+				display: block !important;
+			}
+		}
+	}
+
+	.imagepicker-wrapper {
+		display: inline-block;
+		margin-bototm: 0;
+		vertical-align: middle;
+
+		input, a.modal {
+			float: left;
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		input {
+			margin-right: 0;
+			.border-radius(4px 0 0 4px);
+			width: 105px;
+		}
+
+		a.modal {
+			margin-top: 6px;
+		}
+
+		.sprocket-dropdown {
+			float: left;
+			margin-left: -1px;
+			margin-bottom: 0;
+			.dropdown-toggle {
+				.border-radius(0 4px 4px 0);
+				padding: 5px;
+			}
+		}
+	}
+
+	.group_imageresize {
+		input {
+			width: 30px;
+		}
+
+		.sprocket-dropdown {
+			vertical-align: bottom;
+		}
+
+		.group-bit {
+			margin-left: 10px;
+			display: inline-block;
+		}
+
+		.group-label {
+			display: block;
+			label {
+				width: auto !important;
+			}
+		}
+
+		.group-field {
+			float: left;
+		}
+	}
+}

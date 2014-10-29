@@ -1,0 +1,315 @@
+#avatar-crop-pane {
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	border-radius: 150px;
+}
+.buddybg{
+
+}
+#buddypress div#item-header {
+	overflow: hidden;
+	padding: 20px;
+	border: 1px solid rgba(0,0,2,0.8);
+	background: #333;
+	box-shadow: inset 0 1px 0 rgba(253,253,255,0.2), 0 1px 1px rgba(0,0,2,0.2);
+	border-radius: 0px;
+	background-color: #333;
+	background: url("dark-halb.jpg") repeat-x #222;
+}
+#buddypress div.item-list-tabs#object-nav {
+	background-color: #333;
+	margin-top: 5px;
+	padding-top: 0px;
+	border: 1px solid rgba(0,0,2,0.8);
+	background: #333;
+	box-shadow: inset 0 1px 0 rgba(253,253,255,0.2), 0 1px 1px rgba(0,0,2,0.2);
+	border-radius: 0px;
+}
+#buddypress div.item-list-tabs#object-nav a {
+	color: #777;
+}
+#buddypress div.item-list-tabs ul li.selected a, #buddypress div.item-list-tabs ul li.current a {
+	background-color: transparent;
+	color: #BF2E2E !important;
+	opacity: .8;
+	font-weight: normal;
+}
+#buddypress div.item-list-tabs#subnav {
+	overflow: hidden;
+	background-color: #333;
+	margin-top: 0px;
+	padding-top: 0px;
+	border: 1px solid rgba(0,0,2,0.8);
+	background: #333;
+	box-shadow: inset 0 1px 0 rgba(253,253,255,0.2), 0 1px 1px rgba(0,0,2,0.2);
+	border-radius: 0px;
+}
+#buddypress div.item-list-tabs#subnav a {
+	color: #777;
+}
+#buddypress .activity-list .activity-content {
+	margin: 0px 0 0 70px;
+	background: rgba(255,255,255,.2);
+	border: 1px solid rgba(255,255,255,.2);
+	margin-bottom: 15px;
+	padding: 10px;
+}
+#buddypress ul.item-list li {
+	border-bottom: 0px solid #eaeaea;
+	padding: 15px 0;
+	margin: 0;
+	position: relative;
+	list-style: none;
+}
+#buddypress ul.item-list {
+	border-top: 0px solid #eaeaea;
+	width: 100%;
+	list-style: none;
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+#buddypress #item-body form#whats-new-form {
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #333;
+	margin-top: -5px;
+	padding-top: 0px;
+	border: 1px solid rgba(0,0,2,0.8);
+	background: #333;
+	box-shadow: inset 0 1px 0 rgba(253,253,255,0.2), 0 1px 1px rgba(0,0,2,0.2);
+	border-radius: 0px;
+}
+#buddypress #whats-new:focus {
+	border-color: #BF2E2E !important;
+	outline-color: #BF2E2E;
+	border-radius: 5px;
+}
+#buddypress form#whats-new-form textarea {
+	background: #fff;
+	color: #555;
+	font-family: inherit;
+	font-size: 90%;
+	height: 20px;
+	padding: 6px;
+	width: 98%;
+	border-radius: 5px;
+}
+#buddypress form#whats-new-form #whats-new-avatar {
+	float: left;
+	border: 3px solid #BF2E2E;
+	margin-top: 10px;
+	border-radius: 150px;
+}
+#buddypress .activity-header {
+	margin-right: 0px;
+	padding: 0px;
+	padding-left: 5px;
+	background: rgba(255,255,255,.2);
+	border: 1px solid rgba(255,255,255,.2);
+}
+#buddypress div#item-header img.avatar {
+margin: auto;
+width: 100px;
+height: 100px;
+}
+#buddypress .activity-list .activity-content .activity-header, #buddypress .activity-list .activity-content .comment-header {
+	color: #888;
+	line-height: 15px;
+}
+#buddypress div.item-list-tabs ul li a span {
+	background: #222;
+	border-radius: 50%;
+	border: 1px solid #555;
+	color: #888;
+	display: inline;
+	font-size: 70%;
+	margin-left: 2px;
+	padding: 3px 6px;
+	text-align: center;
+	vertical-align: middle;
+}
+#buddypress div.item-list-tabs#object-nav a {
+	border-right: 1px solid rgba(0,0,0,.3);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.05);
+	text-shadow: none;
+	font-size: 13px;
+}
+#buddypress div.item-list-tabs#subnav ul li {
+margin-top: 0;
+border-right: 1px solid rgba(0,0,0,.3);
+box-shadow: inset 0 1px 0 rgba(255,255,255,.05);
+text-shadow: none;
+font-size: 13px;
+float: left;
+}
+#buddypress div.item-list-tabs ul li a:hover span {
+	background-color: transparent;
+}
+#buddypress div.item-list-tabs ul li.selected a span, #buddypress div.item-list-tabs ul li.current a span {
+	background-color: transparent;
+}
+#buddypress div#item-header h2 {
+	margin-bottom: 5px;
+	color: #fff;
+}
+#buddypress span.activity {
+display: block;
+font-size: 12px;
+opacity: 0.8;
+padding: 0;
+color: #fff;
+background: rgba(255,255,255,.2);
+border: 1px solid rgba(255,255,255,.2);
+padding-right: 5px;
+padding-left: 5px;
+}
+#buddypress div#item-header div#item-meta {
+	display: none;
+}
+#buddypress div.item-list-tabs {
+	background-color: #333;
+	margin-top: 5px;
+	padding-top: 0px;
+	border: 1px solid rgba(0,0,2,0.8);
+	background: #333;
+	box-shadow: inset 0 1px 0 rgba(253,253,255,0.2), 0 1px 1px rgba(0,0,2,0.2);
+	border-radius: 0px;
+	overflow: hidden;
+}
+#buddypress div.dir-search {
+	float: right;
+	margin: -44px 0 0 0;
+	color: #fff;
+	background: rgba(255,255,255,.2);
+	border: 1px solid rgba(255,255,255,.2);
+	padding: 5px;
+}
+#buddypress div.activity-comments > ul > li {
+	border-top: none;
+	color: #fff;
+	background: rgba(255,255,255,.2);
+	border: 1px solid rgba(255,255,255,.2);
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+#buddypress div.activity-comments ul li {
+	border-top: 0px solid #eee;
+	padding: 10px 0 0;
+	border-top: none;
+	color: #fff;
+	background: rgba(255,255,255,.2);
+	border: 1px solid rgba(255,255,255,.2);
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+}
+#buddypress div.activity-comments ul li:last-child {
+	margin-bottom: 3px;
+}
+#buddypress button, #buddypress a.button, #buddypress input[type=submit], #buddypress input[type=button], #buddypress input[type=reset], #buddypress ul.button-nav li a, #buddypress div.generic-button a, #buddypress .comment-reply-link, a.bp-title-button {
+	background: #BF2E2E;
+	border: 0px solid #ccc;
+	color: #fff;
+	font-size: .8rem;
+	cursor: pointer;
+	outline: none;
+	padding: 4px 10px;
+	text-align: center;
+	text-decoration: none;
+}
+#buddypress .activity-list li.load-more, #buddypress .activity-list li.load-newest {
+	background: rgba(255,255,255,.2);
+	border: 1px solid rgba(255,255,255,.2);
+	color: #fff;
+	font-size: 110%;
+	margin: 15px 0;
+	padding: 10px 15px;
+	text-align: center;
+}
+#buddypress .activity-list li.load-more a, #buddypress .activity-list li.load-newest a {
+	color: #fff;
+}
+#buddypress .activity-list .activity-content .activity-header img.avatar {
+	float: none !important;
+	margin: 0 5px 0px 0 !important;
+}
+#buddypress #activity-stream p {
+	margin: 5px 0;
+	color: #fff;
+}
+#buddypress ul.item-list li div.meta {
+	margin-top: 10px;
+	font-size: 14px;
+	background-color: #BF2E2E;
+	color: #fff;
+	margin-left: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.activity-list li.bbp_topic_create .activity-content .activity-inner, .activity-list li.bbp_reply_create .activity-content .activity-inner {
+	border-left: 2px solid #bf2e2e;
+	margin-left: 5px;
+	padding-left: 10px;
+}
+#buddypress a.button,#buddypress button:hover, #buddypress a.button:hover, #buddypress a.button:focus, #buddypress input[type=submit]:hover, #buddypress input[type=button]:hover, #buddypress input[type=reset]:hover, #buddypress ul.button-nav li a:hover, #buddypress ul.button-nav li.current a, #buddypress div.generic-button a:hover, #buddypress .comment-reply-link:hover {
+	background: #444;
+	border: 1px solid #222;
+	color: #888;
+	outline: none;
+	text-decoration: none;
+}
+#buddypress div#message-thread div.alt {
+	background: rgba(255,255,255,.2);
+	border: 1px solid rgba(255,255,255,.2);
+}
+.widget.buddypress div.item-avatar img {
+	height: 50px;
+	margin: 1px;
+	width: 50px;
+}
+#buddypress span.highlight {
+	background: #BF2E2E;
+	border-bottom: 0px solid #a1dcfa;
+	border-right: 0px solid #a1dcfa;
+	color: #fff;
+	padding: 3px 8px;
+	text-decoration: none;
+	moz-border-radius: 4px;
+	webkit-border-radius: 4px;
+	border-radius: 0px;
+	margin-right: 3px;
+	padding: 4px;
+}
+#buddypress span.highlight a {
+	color: #fff;
+}
+.widget.buddypress #bp-login-widget-form #bp-login-widget-submit {
+	margin-right: 10px;
+	color: #fff;
+	background-color: #BF2E2E;
+	border: 0px;
+}
+#buddypress div.item-list-tabs ul li a:hover {
+	color: #BF2E2E;
+}
+#buddypress div.item-list-tabs#object-nav a:hover {
+	color: #BF2E2E;
+}
+#buddypress div.item-list-tabs#subnav a:hover {
+	color: #BF2E2E;
+}
+#buddypress div.item-list-tabs ul li {
+float: none;
+margin: 0;
+list-style: none;
+}
+#buddypress div#item-header div#item-header-content {
+float: left;
+margin-left: -5px;
+width: 100%;
+}

@@ -1,0 +1,239 @@
+// resetting the container wrapper styles
+body {
+	line-height: @baseLineHeight !important;
+}
+
+body div#element-box div.m {
+	padding: 0;
+	border: 0;
+	background-color: transparent;
+	.border-radius(0);
+}
+
+// resetting focus on inputs
+body input:focus, body select:focus {
+	background: @white;
+}
+
+.panel-right input {
+	width: 145px;
+}
+
+// resetting hiding of objects/embed/select with modal
+.body-overlayed embed, .body-overlayed object, .body-overlayed select {
+	visibility: visible !important;
+}
+
+// styling for logo
+.icon-48-roksprocket-logo {
+	background-image: url('../images/roksprocket-48.png');
+}
+
+// styling/overriding details always-visible form
+
+#details {
+	margin: 15px 0;
+}
+#details ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	.clearfix();
+}
+
+#details > ul > li {
+	min-height: 40px;
+}
+
+#details ul {
+	li {
+		float: left;
+		width: 50%;
+	}
+	li.details-25 {
+		width: 25%;
+	}
+}
+
+#details ul li > label {
+	font-size: @baseFontSize + 2;
+	width: 90px;
+	clear: left;
+	float: left;
+	height: @baseLineHeight;
+	line-height: @baseLineHeight;
+	padding: 4px;
+}
+
+#details ul li .shortcode {
+	font-size: @baseFontSize + 2;
+	padding: 4px 0;
+	font-weight: bold;
+	color: #999;
+	float: left;
+}
+
+#details ul li .copy-to-clipboard {
+	float: left;
+	margin: 5px 0 0 5px;
+	position: relative;
+	visibility: hidden;
+
+	&:hover {
+		i {
+			.opacity(100);
+		}
+	}
+}
+
+#details ul li {
+	input[name=jform[title]] {
+		width: 300px;
+	}
+	input[name=jform[position]] {
+		width: 187px;
+	}
+}
+
+#details ul li select {
+	padding: 6px 6px 5px;
+}
+
+#details ul li fieldset {
+	padding: 0 0 10px 0;
+	margin: 0 0 9px;
+	border: 0;
+	height: @baseLineHeight;
+	line-height: @baseLineHeight;
+}
+
+#details ul li fieldset label {
+	clear: none;
+	font-size: 1em;
+	line-height: 1em;
+	margin-right: 15px;
+	width: auto;
+	float: left;
+}
+
+#details .radio input[type="radio"], #details .checkbox input[type="checkbox"] {
+	margin: 3px 5px 3px 0 !important;
+}
+
+body .calendar,  body.calendar table {
+	border: 0;
+}
+
+body span.star {
+    color: #CC0000;
+    font-size: 150%;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+/* hiding unwanted joomla core labels/fieldsets and resets */
+body .adminform legend, body label#jform_menuselect-lbl {
+	display: none;
+}
+
+body fieldset.adminform {
+	margin: 0;
+	overflow: visible;
+
+	div.current {
+		border-left: 0;
+		border-right: 0;
+		border-bottom: 0;
+	}
+
+	dl.tabs dt {
+		.border-radius(3px 3px 0 0 );
+	}
+
+	fieldset input, fieldset textarea, fieldset select, fieldset img, fieldset button {
+		margin: 0;
+	}
+
+	fieldset.radio {
+		float: left;
+	}
+
+	> label {
+		float: left;
+		min-width: 135px;
+	}
+
+	button.jform-rightbtn {
+		float: right;
+	}
+}
+
+body {
+	#jform_id, span.readonly, input.readonly {
+		float: none;
+		display: inline-block;
+		.box-shadow(0 0 0 transparent);
+	}
+}
+
+body fieldset li {
+	padding: 0;
+}
+
+/* panels initializations */
+#tabs-container .panels {
+	padding: 15px;
+	.panel {
+		display: none;
+
+		&:first-child {
+			display: block;
+		}
+	}
+}
+
+// label specific stuff
+.joomla_sort.float_left {float:left;}
+
+// Horizontal rules
+hr {
+  margin: @baseLineHeight 0;
+  border: 0;
+  border-top: 1px solid @hrBorder;
+  border-bottom: 1px solid @white;
+}
+
+// messages
+.sprocket-messages, .sprocket-messages .message {
+	display: none;
+}
+
+// toolbar spinner
+#toolbar .button {
+	.spinner {
+		.opacity(100);
+		font-style: italic;
+		color: #999;
+		cursor: default;
+
+		&:hover, &:active, &:focus {
+			border: 1px solid #f4f4f4;
+		}
+
+		&.spinner-16 span {
+			background-image: url(../images/loader-16.gif);
+		}
+		&.spinner-32 span {
+			background-image: url(../images/loader-32-transparent.gif);
+			.square(32px);
+		}
+		&.spinner-64 span {
+			background-image: url(../images/loader-64.gif);
+			.square(64px);
+		}
+		&.spinner-128 span {
+			background-image: url(../images/loader-128.gif);
+			.square(128px);
+		}
+	}
+}

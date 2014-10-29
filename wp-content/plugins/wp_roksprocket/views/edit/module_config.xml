@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="params">
+        <fieldset name="roksprocket" overwrite="false">
+            <!--<field name="provider_selector" type="label" label="Choose your Content Provider and Layout Type"-->
+                   <!--class="first" optionorder="0"/>-->
+            <field name="provider" type="providerselection" default="wordpress" label="Content Provider" description=""
+                   class="content_provider" refresher="true" configkey="roksprocket.providers.registered"
+                   optionorder="1"/>
+            <field name="layout" type="layoutselection" default="tabs" label="Type" description=""
+                   configkey="roksprocket.layouts" optionorder="2"/>
+            <field name="display_limit" type="textplus" default="∞" label="Display Limit"
+                   description="Amount of articles to display when rendering. Use ∞ or 0 for unlimited articles."
+                   optionorder="52" append="articles" />
+        </fieldset>
+        <fieldset name="roksprocketTop" overwrite="false">
+            <field name="provider_selector" type="label" label="Choose a Title for your Widget"
+                   class="first" optionorder="0"/>
+            <field name="widget_title" type="text" label="Title"
+                   description="Please add a title for your widget instance."
+                   optionorder="1"/>
+        </fieldset>
+    </fields>
+</form>

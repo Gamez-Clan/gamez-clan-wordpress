@@ -1,0 +1,309 @@
+/*toolbar stuff*/
+.toolbar-wrapper {
+    float: right;
+    position: relative;
+    clear: none;
+    margin-left: 5px;
+}
+
+.toolbar li {
+    float: right;
+    clear: none;
+    position: relative;
+    margin: 5px 10px 5px 5px;
+}
+
+.toolbar li {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.toolbar-button a span {
+    opacity: 0.6;
+}
+
+.toolbar-button a:hover span {
+    opacity: 1;
+}
+
+.toolbar-button a:active span {
+    opacity: 1;
+}
+
+.panel-left-wrapper .spinner {
+    display: block;
+}
+
+.remove-wrapper .remove {
+    font-style: normal;
+}
+
+body .articles .article .summary .title .deleting, body #tabs-container .articles .article .summary .title .deleting {
+    top: 8px !important;
+    right: 1px !important;
+}
+
+/*page stuff*/
+.page-header {
+    display: block;
+    padding: 10px;
+    clear: none;
+}
+
+.page-header h2 {
+    float: left;
+    display: block;
+}
+
+/*wp clr fix*/
+.clr {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+
+/* Alignment */
+.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 1.625em;
+}
+
+.alignright {
+    display: inline;
+    float: right;
+    margin-left: 1.625em;
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Pagination */
+.pagination {
+    display: block;
+    width: auto;
+    height: 25px;
+    text-align: center;
+}
+
+.pagination span, .pagination a {
+    display: block;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    font-size: 12px !important;
+    line-height: 13px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    text-decoration: none;
+    margin: 5px;
+    float: left;
+    clear: none;
+}
+
+.pagination span {
+    background-color: #efefef;
+}
+
+/* MooTools.Tips */
+.tip-top {
+    color: #fff;
+    width: 139px;
+    z-index: 13000;
+}
+
+.tip-title {
+    width: 145px;
+    font-size: 11px;
+    margin: 0;
+    color: #ddd;
+    padding: 8px 8px 4px;
+}
+
+.tip-text {
+    width: 123px;
+    font-size: 11px;
+    padding: 4px 8px 8px;
+    color: #fff;
+}
+
+.tip-text A {
+    color: #069;
+}
+
+.tip-wrap {
+    z-index: 1000 !important;
+    padding: 5px;
+    border-radius: 6px;
+    background: #000;
+    opacity: 0.7;
+    border: 1px solid #000;
+}
+
+input[type="text"], input[type="password"], input[type="number"], input[type="search"], input[type="email"], input[type="url"], textarea {
+	-moz-box-sizing: inherit;
+	-webkit-box-sizing: inherit;
+	-ms-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+.input-append input {
+	margin-top: 0;
+	vertical-align: top;
+}
+
+li, dd {
+	margin-bottom: 0;
+}
+
+.page-body {
+	margin-right: 20px;
+}
+
+.page-header {
+	margin-bottom: 30px;
+}
+
+#icon-roksprocket {
+  background: url(../images/roksprocket_32x32.png) no-repeat;
+  display: block;
+  margin: 6px 8px 0 0;
+  width: 34px;
+  height: 32px;
+  float: left;
+}
+
+body .modal-wrapper {
+	right: -15px;
+}
+
+.btn {
+	text-decoration: none;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:focus {
+	color: white;
+}
+
+body .toolbar li {
+	margin: 5px 10px 5px 5px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.btn a {
+	text-decoration: none;
+}
+
+.button {
+	margin: 3px 5px 0 0;
+}
+
+.toolbar-wrapper .toolbar {
+	margin-top: 5px;
+}
+
+div.updated, div.error {
+	margin: 5px 0 2px;
+}
+
+body .peritempicker, body .imagepicker {
+	margin-top: 0;
+	vertical-align: middle;
+}
+
+body .panel-right .imagepicker {
+	display: inline-block;
+}
+
+.pagination-links {
+	input, textarea, select, .uneditable-input {
+		width: auto;
+	}
+}
+div.sort a {
+    padding-right: 20px;
+    float:left;
+}
+div.sort a span.sorting-indicator{
+    display: none;
+    float:right;
+}
+
+.widefat {
+	.delete-table-list {
+		position: absolute;
+		top: 0; left: 0; right: 0; bottom: 0;
+		background: #F9F9F9;
+	}
+
+	.alternate {
+		.delete-table-list {
+			background: #FCFCFC;
+		}
+	}
+}
+
+.toolbar-button {
+	img {
+		margin-left: -2px;
+		margin-top: -2px;
+		vertical-align: middle;
+		display: none;
+	}
+
+	.toolbar.spinner {
+        .square(auto);
+        margin-left: 0;
+        margin-right: 0;
+
+        img {
+    		display: inline-block;
+        }
+    }
+}
+
+/** TinyMCE Editor Popup **/
+body#rs_tinymce_window {
+  background: none !important;
+  margin-left: 15px;
+  padding-top: 5px;
+  height: 85px;
+  select#rs_shorttag_select {
+    margin-top: 9px;
+  }
+  #rs_shorttag_insert {
+    margin-top: 5px;
+  }
+  .rs_items_dropdown {
+    margin-right: 10px;
+  }
+}
+
+/** WordPress 3.0 - 3.7 Compatibility **/
+body.branch-3-0, body.branch-3-1, body.branch-3-2, body.branch-3-3, body.branch-3-4, body.branch-3-5, body.branch-3-6, body.branch-3-7 {
+	#wpbody-content {
+		.widefat th {
+			/*iframe window.php css*/
+			font-family: sans-serif;
+			font-size: 12px;
+			line-height: 1.4em;
+		}
+	}
+	.widefat td {
+		padding: 0;
+		vertical-align: middle;
+
+		.relative {
+			padding: 4px 7px 2px;
+			position: relative;
+		}
+	}
+}

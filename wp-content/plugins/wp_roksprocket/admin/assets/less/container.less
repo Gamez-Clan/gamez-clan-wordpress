@@ -1,0 +1,146 @@
+// Sprocket Version
+.roksprocket-version {
+	position: absolute;
+	right: 10px;
+	top: -22px;
+	text-align: right;
+	color: #aaa;
+	span {
+		color: #3576b8;
+		text-shadow: 0 0 5px rgba(82, 168, 236, 0.6);
+	}
+}
+
+// Tabs Container
+#tabs-container {
+	.box-shadow(0 0 7px rgba(136, 136, 136, 0.19));
+	.border-radius(6px);
+	background-color: #fff;
+	border: 1px solid #cfcece;
+	margin-top: 5px;
+	position: relative;
+}
+
+#tabs-container {
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	label {
+		color: #888;
+		width: 150px;
+		display: inline-block;
+	}
+
+	.panel-left {
+		float: left;
+		width: 65%;
+
+		.panel-left-wrapper {
+			margin-right: 20px;
+		}
+	}
+
+	.panel-right {
+		float: right;
+		width: 35%;
+
+		li {
+			white-space: nowrap;
+
+		}
+	}
+
+	.right {
+		float: right;
+	}
+
+	h6 {
+		span {
+			color: #dd1144;
+			background-color: #f7f7f9;
+		    border: 1px solid #e1e1e8;
+		    padding: 2px 4px;
+		    font-size: 12px;
+		    line-height: 12px;
+		    .border-radius(3px);
+		}
+	}
+}
+
+#tabs-container > .tabs {
+	#gradient > .vertical(#f7f8f8, #e9e9e8);
+	.box-shadow(0 -4px 4px rgba(136, 136, 136, 0.09) inset);
+	.border-radius(6px 6px 0 0);
+	border-bottom: 1px solid #cacaca;
+	.clearfix();
+}
+
+#tabs-container > .tabs {
+	.tab, .badge, .separator {
+		float: left;
+		padding: 10px 20px;
+		height: 38px;
+		color: #898989;
+		text-shadow: 0 1px 0 @white;
+		font-size: @baseFontSize;
+		border-right: 1px solid @white;
+		border-left: 1px solid #cacaca;
+		margin-bottom: -1px;
+		cursor: pointer;
+		.transition(color .2s linear);
+	}
+
+	.tab:first-child {
+		border-left: 0;
+		.border-radius(6px 0 0 0);
+	}
+
+	.tab:last-child, .badge:last-child {
+		border-right: none;
+	}
+
+	.separator {
+		content: "";
+		border-left: 1px solid #cacaca;
+		border-right: 0;
+	}
+
+	.tab.active, .tab.active:hover {
+		background: @white;
+		color: #3576b8;
+		text-shadow: 0 0 8px rgba(82, 168, 236, 0.6);
+	}
+
+	.tab:hover {
+		color: #666;
+	}
+
+	i {
+		display: block;
+		margin: 0 auto;
+		width: 16px;
+		height: 16px;
+	}
+}
+
+#tabs-container > .tabs .badge {
+	float: right;
+	cursor: default;
+	.border-radius(0 6px 0 0);
+	#gradient > .vertical(#f0f0f0, #fff);
+	.box-shadow(0 -2px 4px rgba(136, 136, 136, 0.4) inset);
+
+	i {
+		float: left;
+		margin-right: 5px;
+	}
+
+	li {
+		margin-bottom: 5px;
+		line-height: @baseLineHeight - 3;
+		padding: 0;
+	}
+}

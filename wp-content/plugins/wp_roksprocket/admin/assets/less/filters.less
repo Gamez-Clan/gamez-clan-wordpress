@@ -1,0 +1,105 @@
+#tabs-container ul.roksprocket-filters {
+	color: #666;
+	text-shadow: 0 1px 0 #fff;
+	background: #f9f9f9;
+	border: 1px solid #bbb;
+	.border-radius(4px);
+	.box-shadow(0 0 8px rgba(0, 0, 0, 0.2) inset);
+	padding: 2px 0;
+	position: relative;
+	margin-bottom: 10px;
+
+	li {
+		padding: 5px 45px 5px 10px;
+		border-bottom: 1px solid #ccc;
+		border-top: 1px solid @white;
+		position: relative;
+
+		.controls {
+			position: absolute;
+			top: 7px;
+			right: 7px;
+			i {
+				float: left;
+				cursor: pointer;
+			}
+		}
+
+		&:first-child, &.first {
+			border-top: 0;
+		}
+
+		&:last-child, &.last {
+			border-bottom: 0;
+		}
+
+		.btn {
+			padding: 3px 10px 2px;
+			margin: -2px 0;
+		}
+
+		.chunk {
+			i {
+				.opacity(70);
+				&:hover {
+					.opacity(100);
+				}
+			}
+		}
+		select, input {
+			font-size: 10px;
+			padding: 2px;
+			width: auto;
+			margin: 0 5px 0 0;
+			height: 20px;
+			line-height: 20px;
+		}
+
+		input {
+			width: 80px;
+			height: 14px;
+			line-height: 15px;
+		}
+
+		a {
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		&.create-new {
+			padding: 5px 10px;
+			text-align: center;
+			display: none;
+			.btn-primary {
+				border-color: rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.75);
+			}
+		}
+
+		&.detached, .detached {
+			i, i:hover {
+				.opacity(30);
+			}
+
+			a, i, input, select, textarea {
+				cursor: default;
+			}
+		}
+	}
+
+	&.empty {
+		.create-new {
+			display: block;
+		}
+	}
+
+	&.filter_articles {
+		input {
+			width: 85%;
+			margin-right: 0;
+		}
+	}
+}
+
+.roksprocket-filters-description {
+	margin: 0 0 10px;
+}

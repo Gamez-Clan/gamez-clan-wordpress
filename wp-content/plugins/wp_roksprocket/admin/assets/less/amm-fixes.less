@@ -1,0 +1,108 @@
+#tabs-container .panels .advanced-module-manager {
+	.panel {display: block;}
+	h3.title {display: none;}
+
+	.nn_panel_title {
+		background: transparent !important;
+	}
+
+	.nn_title {
+		margin: 20px 0 10px;
+		padding: 0 0 5px;
+		font-size: 14px;
+		color: #444;
+		border-bottom: 1px solid #ddd;
+		background: transparent;
+	}
+
+	fieldset {
+		margin: 0;
+		float: none !important;
+		margin: 5px 0;
+
+		&.radio {
+			display: inline-block;
+		}
+
+		&.adminform, &.panelform, &.adminform-legacy {
+			fieldset.radio {
+				float: none !important;
+			}
+		}
+
+		&#advancedparams_color {
+			label.radio {
+				padding-left: 0 !important;
+			}
+		}
+	}
+
+	.radio {
+		label {
+			width: auto !important;
+			margin: 0 !important;
+			padding: 0 10px !important;
+		}
+
+		input {
+			margin-left: 0;
+			padding: 1px;
+			margin-top: 3px;
+			&.nn_color {
+				padding:1px 8px;
+				margin-top:0;
+			}
+		}
+	}
+
+	.nn_block {
+		.border-radius(6px);
+		border: 1px solid #ccc;
+		.box-shadow(0 0 5px rgba(75, 75, 75, 0.2) inset);
+		padding: 5px 10px;
+
+		.adminformlist {
+			line-height: 1em;
+
+			li {
+				line-height: 18px;
+			}
+		}
+	}
+
+	.nn_title .nn_block, .nn_panel_description .nn_block, .nn_block.nn_title {
+		.border-radius(0);
+		border: 0;
+		.box-shadow(0 0 0 transparent);
+	}
+
+	.nn_block.nn_title {
+		padding: 5px 0  !important;
+		margin: 10px 0 0 !important;
+	}
+
+	.nn_panel_description {
+		margin-left: 155px;
+		display: inline-block;
+
+		// box style
+		padding: 8px 35px 8px 14px;
+		text-shadow: 0 1px 0 rgba(255,255,255,.5) !important;
+		background-color: @warningBackground;
+		border: 1px solid @warningBorder;
+		.border-radius(4px);
+		background-color: @infoBackground;
+		border-color: @infoBorder;
+
+		.nn_block.nn_title {
+			margin: 0 !important;
+			padding: 0 !important;
+			color: @infoText !important;
+		}
+	}
+}
+
+.pane-slider.content > .panelform, fieldset.adminform {
+	margin: 0 !important;
+	padding: 0 !important;
+}
