@@ -7,7 +7,7 @@
 
         <div class="uk-panel">
    
-        <div data-uk-sticky="{top:110}">
+        <div data-uk-sticky="{top:70}">
         
         <?php do_action( 'bp_before_member_home_content' ); ?>
         

@@ -8,7 +8,7 @@
  */
 
 ?>
-<div data-uk-sticky="{top:57}">
+<div data-uk-sticky="{top:35}">
 <div id="post-<?php bbp_reply_id(); ?>" class="bbp-reply-header">
 
 	<div class="bbp-meta">

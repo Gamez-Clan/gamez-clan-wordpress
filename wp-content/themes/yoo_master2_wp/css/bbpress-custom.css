@@ -141,6 +141,10 @@ margin: 5px 0 5px;
 padding: 0;
 word-wrap: break-word;
 }
+p.bbp-topic-meta a{
+color: #777;
+}
+
 
 #bbpress-forums li.bbp-body ul.forum {
 border-top: 0px solid #eee;
@@ -311,6 +315,36 @@ background: #333;
 .freshness-forum-link{
 width: 25%;
 float: left;	
+}
+.bbp-pagination-links a, .bbp-pagination-links span.current {
+background: #BF2E2E;
+opacity: .8;
+border: 1px solid #111;
+color: #fff;
+border-radius: 50px;
+}
+
+
+.bbp-pagination-links a:hover, .bbp-pagination-links span.current {
+background: #BF2E2E;
+opacity: .8;
+border: 1px solid #111;
+}
+.bbp-topic-pagination a {
+font-size: 12px;
+line-height: 10px;
+padding: 1px 3px;
+background: #BF2E2E;
+border: 1px solid #111;
+text-decoration: none;
+color: #fff;
+border-radius: 50px;
+}
+.bbp-pagination {
+float: left;
+width: 100%;
+margin-bottom: 15px;
+margin-top: 15px;
 }
 
 

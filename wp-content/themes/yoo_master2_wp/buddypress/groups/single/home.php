@@ -3,7 +3,7 @@
         <div class="uk-panel">
 	        
 	        
-	        <div class="uk-sticky" style="height: 528px; margin: 0px;"><div data-uk-sticky="{top:110}" style="margin: 0px;">
+	        <div class="uk-sticky" style="height: 528px; margin: 0px;"><div data-uk-sticky="{top:70}" style="margin: 0px;">
         
 <div id="buddypress">
 
