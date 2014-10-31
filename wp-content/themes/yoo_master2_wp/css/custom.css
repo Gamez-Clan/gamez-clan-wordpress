@@ -368,16 +368,20 @@ li.bbp-topic-title {
 	font-family: FontAwesome;
 }
 .sprocket-mosaic-item {
-	border: 0px solid #ddd;
-	border-radius: 0px;
-	background: rgba(255,255,255,.2);
-	border: 1px solid rgba(255,255,255,.2);
+border: 0px solid #ddd;
+border-radius: 0px;
+background: #333;
+border-top: 2px solid #882a2a;
+border-bottom: 2px solid #882a2a;
 }
 .sprocket-mosaic-item .sprocket-mosaic-title {
-	text-transform: none;
-	font-size: 12px;
-	color: #fff !important;
-	text-shadow: none;
+text-transform: none;
+font-size: 12px;
+color: #888 !important;
+text-shadow: none;
+min-height: 60px;
+margin-bottom: 0px;
+margin-top: 10px;
 }
 .sprocket-mosaic-item .sprocket-mosaic-title a {
 	text-transform: none;
@@ -389,7 +393,7 @@ li.bbp-topic-title {
 	margin: 10px 0;
 	display: block;
 	text-shadow:none;
-	color: #fff;
+	color: #999;
 }
 .sprocket-mosaic .sprocket-mosaic-order li, .sprocket-mosaic .sprocket-mosaic-order li {
 	border-radius: 0px;
