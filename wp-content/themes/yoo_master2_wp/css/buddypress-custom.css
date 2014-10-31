@@ -267,10 +267,14 @@ padding-left: 5px;
 	background: rgba(255,255,255,.2);
 	border: 1px solid rgba(255,255,255,.2);
 }
+.widget.buddypress div.item-avatar img.avatar {
+float: left;
+margin: 0 0px 15px 0;
+}
 .widget.buddypress div.item-avatar img {
-	height: 50px;
-	margin: 1px;
-	width: 50px;
+height: 60px;
+margin: 1px;
+width: 60px;
 }
 #buddypress span.highlight {
 	background: #BF2E2E;
