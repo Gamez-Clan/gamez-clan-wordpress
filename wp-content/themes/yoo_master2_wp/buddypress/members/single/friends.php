@@ -33,6 +33,8 @@
 	</ul>
 </div>
 
+
+
 <?php
 switch ( bp_current_action() ) :
 
@@ -58,3 +60,5 @@ switch ( bp_current_action() ) :
 		bp_get_template_part( 'members/single/plugins' );
 		break;
 endswitch;
+
+

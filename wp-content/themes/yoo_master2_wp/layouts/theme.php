@@ -28,6 +28,13 @@ include($this['path']->path('layouts:theme.config.php'));
 <script src="<?php echo home_url(); ?>/wp-content/themes/yoo_master2_wp/warp/vendor/uikit/js/addons/sticky.js"></script>
 <script src="<?php echo home_url(); ?>/wp-content/themes/yoo_master2_wp/warp/vendor/uikit/js/addons/nestable.js"></script>
 
+<!-- Kadaverkomplex: Favicon -->
+<link rel="apple-touch-icon" sizes="57x57" href="<?php echo home_url(); ?>/wp-content/themes/yoo_master2_wp-1/favicon/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="<?php echo home_url(); ?>/wp-content/themes/yoo_master2_wp-1/favicon/apple-touch-icon-60x60.png">
+<link rel="icon" type="image/png" href="<?php echo home_url(); ?>/wp-content/themes/yoo_master2_wp-1/favicon/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="<?php echo home_url(); ?>/wp-content/themes/yoo_master2_wp-1/favicon/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="<?php echo home_url(); ?>/wp-content/themes/yoo_master2_wp-1/favicon/favicon-196x196.png" sizes="196x196" />
+
 
 <?php echo $this['template']->render('head'); ?>
 
@@ -104,9 +111,14 @@ _wp/css/calender-custom.css">
 					
 		<div class="uk-navbar-flip uk-visble-medium uk-visble-large uk-hidden-small nav-right">
 	      <ul class="uk-navbar-nav">
+			<?php
+	         	/* Kadaverkomplex: Dont show Link to 'Join Us!' for authenticated users */
+	         	if ( is_user_logged_in() === false ) {
+	         ?> 
 	         <li>
 	            <a class="blink" href="<?php echo home_url(); ?>/registrieren/"><i class="uk-icon-group"></i> Join Us!</a>
 	         </li>
+			 <?php } ?>
 
 	         <li data-uk-dropdown="{mode:'hover'}" class="">
 	            <a href="<?php echo home_url(); ?>/forum/"><i class="uk-icon-th-list"></i> Forum <i class="uk-icon-caret-down"></i></a>
@@ -121,7 +133,7 @@ _wp/css/calender-custom.css">
 	         </li>
 
 	         <?php
-	         	/* Kadaverkomplex: Show Link to 'Mein Profil' only for authenticated in users */
+	         	/* Kadaverkomplex: Show Link to 'Mein Profil' only for authenticated users */
 	         	if ( is_user_logged_in() ) {
 	         ?> 
 	         <li>
@@ -132,6 +144,8 @@ _wp/css/calender-custom.css">
 	         <li>
 	            <a class="blink" style="border-right:1px solid #333;" href="#ts" data-uk-offcanvas=""><i class="uk-icon-headphones"></i> Teamspeak Info</a>
 	         </li>
+			
+
 	         
 	         
 	         <li>

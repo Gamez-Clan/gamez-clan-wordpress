@@ -54,3 +54,4 @@ endswitch; ?>
 </div><!-- .profile -->
 
 <?php do_action( 'bp_after_profile_content' ); ?>
+

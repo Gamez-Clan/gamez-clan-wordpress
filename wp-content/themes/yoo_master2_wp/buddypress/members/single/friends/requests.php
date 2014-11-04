@@ -21,14 +21,14 @@
 	<ul id="friend-list" class="item-list" role="main">
 		<?php while ( bp_members() ) : bp_the_member(); ?>
 
-			<li id="friendship-<?php bp_friend_friendship_id(); ?>">
+			<li id="friendship-<?php bp_friend_friendship_id(); ?>" class="uk-panel-box" style="margin-bottom: 10px;padding: 15px;">
 				<div class="item-avatar">
 					<a href="<?php bp_member_link(); ?>"><?php bp_member_avatar(); ?></a>
 				</div>
 
 				<div class="item">
 					<div class="item-title"><a href="<?php bp_member_link(); ?>"><?php bp_member_name(); ?></a></div>
-					<div class="item-meta"><span class="activity"><?php bp_member_last_active(); ?></span></div>
+					<div class="item-meta"><span class=""><?php bp_member_last_active(); ?></span></div>
 				</div>
 
 				<?php do_action( 'bp_friend_requests_item' ); ?>

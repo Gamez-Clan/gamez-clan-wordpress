@@ -9,6 +9,8 @@
 
 ?>
 
+
+
 <div class="item-list-tabs no-ajax" id="subnav" role="navigation">
 	<ul>
 		<?php if ( bp_core_can_edit_settings() ) : ?>
@@ -19,12 +21,18 @@
 	</ul>
 </div>
 
+
+
+
+
 <?php
+
 
 switch ( bp_current_action() ) :
 	case 'notifications'  :
 		bp_get_template_part( 'members/single/settings/notifications'  );
 		break;
+
 	case 'capabilities'   :
 		bp_get_template_part( 'members/single/settings/capabilities'   );
 		break;
@@ -41,3 +49,5 @@ switch ( bp_current_action() ) :
 		bp_get_template_part( 'members/single/plugins'                 );
 		break;
 endswitch;
+
+

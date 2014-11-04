@@ -633,12 +633,18 @@ display: none;
 }
 
 
+input#captcha_code {
+border: 1px solid #555 !important;
+width: 65px;
+background-color: #333 !important;
+}
 
-
-
-
-
-
+button, input:not([type="radio"]):not([type="checkbox"]), select {
+vertical-align: middle;
+background: #333;
+border: 1px solid #555;
+color: #bf2e2e;
+}
 
 @media screen and (max-width: 960px) {
 	#buddypress div.item-list-tabs ul li {
@@ -676,4 +682,58 @@ display: none;
 		width: 70%;
 		max-width: 100%;
 	}
+}
+
+/* single event page css */
+.uk-panel-box ul.event-attendees li,
+.uk-panel-box ul.event-categories li {
+	border: none;
+	box-shadow: none;
+}
+
+.uk-panel-box div.gzc-attendeeslist ul li {
+	float: left;
+	margin-right: 5px;
+}
+
+/* Kadaverkomplex: Kalendar Lookalike for Event Widget */
+.widget_em_widget .gzc-eventwidget-calendar {
+	border: 1px solid #111;
+	display: inline-block;
+	width: 45px;
+	float: left;
+	margin-right: 5px;
+	cursor: default;
+}
+
+.widget_em_widget .gzc-eventwidget-calendar b {
+	background: #222;
+	display: block;
+	font: 9px/19px Tahoma,Arial,sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	color: #888;
+}
+.widget_em_widget .gzc-eventwidget-calendar b + b {
+	background: #333;
+	border-top: 2px solid #111;
+	border-bottom: 2px solid #111;
+	display: block;
+	font: bold 17px/32px Arial,sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.widget_em_widget ul li {
+	border: none;
+	box-shadow: none;
+	height: 61px;
+}
+
+.widget_em_widget ul li.all-events-link {
+	height: auto;
+}
+
+.widget_em_widget ul li .gzc-eventwidget-data {
+	color: #ffffff;
 }

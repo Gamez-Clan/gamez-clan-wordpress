@@ -155,25 +155,6 @@
 				"small": "1"
 			}
 		},
-		"em_widget-2": {
-			"title": "1",
-			"assignment": {
-				"0": "",
-				"1": "*"
-			},
-			"class": "",
-			"panel": "",
-			"icon": "",
-			"badge": {
-				"type": "uk-panel-badge uk-badge",
-				"text": ""
-			},
-			"display": {
-				"large": "1",
-				"medium": "1",
-				"small": "1"
-			}
-		},
 		"roksprocket_options-3": {
 			"title": "1",
 			"assignment": {
@@ -181,7 +162,7 @@
 				"1": "*"
 			},
 			"class": "",
-			"panel": "uk-panel uk-panel-box uk-panel-box-secondary",
+			"panel": "",
 			"icon": "",
 			"badge": {
 				"type": "uk-panel-badge uk-badge",
@@ -250,7 +231,7 @@
 				"small": "1"
 			}
 		},
-		"em_calendar-2": {
+		"em_widget-2": {
 			"title": "1",
 			"assignment": {
 				"0": "",
@@ -288,25 +269,6 @@
 				"small": "1"
 			}
 		},
-		"mycred_widget_list-2": {
-			"title": "1",
-			"assignment": {
-				"0": "",
-				"1": "*"
-			},
-			"class": "",
-			"panel": "",
-			"icon": "",
-			"badge": {
-				"type": "uk-panel-badge uk-badge",
-				"text": ""
-			},
-			"display": {
-				"large": "1",
-				"medium": "1",
-				"small": "1"
-			}
-		},
 		"dwqa-latest-question-2": {
 			"title": "1",
 			"assignment": {
@@ -326,6 +288,32 @@
 				"small": "1"
 			}
 		},
+		"mycred_widget_list-2": {
+			"title": "1",
+			"assignment": {
+				"0": "",
+				"1": "*"
+			},
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"text-4": {
+			"title": "1",
+			"assignment": {
+				"0": "",
+				"1": "*"
+			}
+		},
 		"nav_menu-2": {
 			"title": "1",
 			"assignment": {
@@ -336,12 +324,6 @@
 	},
 	"menus": {
 		"16": {
-			"columns": "1",
-			"columnwidth": "",
-			"icon": "",
-			"subtitle": ""
-		},
-		"17": {
 			"columns": "1",
 			"columnwidth": "",
 			"icon": "",
