@@ -39,7 +39,7 @@
 
 		<li class="uk-panel-box" style="margin-bottom: 10px;padding: 15px;" <?php bp_group_class(); ?>>
 			<div class="item-avatar">
-				<a href="<?php bp_group_permalink(); ?>"><?php bp_group_avatar( 'type=thumb&width=100&height=100' ); ?></a>
+				<a href="<?php bp_group_permalink(); ?>"><?php bp_group_avatar(  ); ?></a>
 			</div>
 
 			<div class="item">

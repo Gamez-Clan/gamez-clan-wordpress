@@ -92,14 +92,14 @@ background-color: #333;
 	border-radius: 5px;
 }
 #buddypress form#whats-new-form textarea {
-	background: #fff;
-	color: #555;
-	font-family: inherit;
-	font-size: 90%;
-	height: 20px;
-	padding: 6px;
-	width: 98%;
-	border-radius: 5px;
+background: #fff;
+color: #555;
+font-family: inherit;
+font-size: 90%;
+height: 40px;
+padding: 6px;
+width: 98%;
+border-radius: 5px;
 }
 #buddypress form#whats-new-form #whats-new-avatar {
 	float: left;
@@ -322,3 +322,36 @@ float: left;
 margin-left: -5px;
 width: 100%;
 }
+.bpfb_form_container {
+padding: 0px;
+background: none;
+}
+
+#buddypress table.forum tr td, #buddypress table.forum tr th, #buddypress table.messages-notices tr td, #buddypress table.messages-notices tr th, #buddypress table.notifications tr td, #buddypress table.notifications tr th, #buddypress table.notifications-settings tr td, #buddypress table.notifications-settings tr th, #buddypress table.profile-fields tr td, #buddypress table.profile-fields tr th, #buddypress table.profile-settings tr td, #buddypress table.wp-profile-fields tr td, #buddypress table.wp-profile-fields tr th {
+padding: 8px;
+vertical-align: middle;
+background: #222;
+}
+#buddypress div.messages-options-nav {
+font-size: 80%;
+margin: 0;
+padding: 5px 15px;
+text-align: right;
+background-color: #333;
+border: 1px solid rgba(0,0,2,0.8);
+background: #333;
+box-shadow: inset 0 1px 0 rgba(253,253,255,0.2), 0 1px 1px rgba(0,0,2,0.2);
+}
+#buddypress form#whats-new-form #whats-new-content {
+margin-left: 55px;
+padding: 0 0 0px 20px;
+}
+.bpfb_actions_container, .bpfb_preview_container {
+margin-bottom: 5px;
+}
+#bpfb_video_url, #bpfb_link_preview_url {
+color: #ccc;
+font-style: italic;
+margin-bottom: 5px;
+}
+
